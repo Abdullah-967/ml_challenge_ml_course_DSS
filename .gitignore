@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+.ipynb_checkpoints/
+
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+
+baseline/predicted.json
+baseline/predicted.zip
