@@ -1,8 +1,8 @@
 """Auto-MAE experiment.
 
-Iter 6: add commune_codes + property_type as native HGB categoricals.
-commune_codes has 196 unique values — strong spatial signal. property_type
-encodes building/land type (TERRAIN, MAISON, APPARTEMENT, etc.).
+Iter 20: bigger HGB on log1p target. iter3 tried log1p on smaller HGB and
+got -405; with the high-capacity model it may help more — log space scales
+errors with magnitude, which suits skewed property prices.
 """
 
 import numpy as np
@@ -47,11 +47,15 @@ def build_pipeline(numeric_features):
 
     model = HistGradientBoostingRegressor(
         loss="absolute_error",
-        max_iter=300,
-        learning_rate=0.05,
-        l2_regularization=0.1,
+        max_iter=1500,
+        learning_rate=0.02,
+        max_leaf_nodes=127,
+        min_samples_leaf=20,
+        l2_regularization=0.0,
         random_state=RANDOM_STATE,
         early_stopping=True,
+        validation_fraction=0.15,
+        n_iter_no_change=30,
         categorical_features=cat_mask,
     )
 
@@ -71,5 +75,6 @@ def fit_predict(train_records, test_records):
     X_test = pd.DataFrame(test_records).reindex(columns=feature_columns)
 
     pipeline = build_pipeline(numeric_features)
-    pipeline.fit(X_train, y_train)
-    return pipeline.predict(X_test).tolist()
+    pipeline.fit(X_train, np.log1p(y_train))
+    log_preds = pipeline.predict(X_test)
+    return np.expm1(log_preds).tolist()
