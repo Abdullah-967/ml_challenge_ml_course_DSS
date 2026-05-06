@@ -27,6 +27,7 @@ def build_model():
         (
             "model",
             HistGradientBoostingRegressor(
+                loss="absolute_error",
                 max_iter=300,
                 learning_rate=0.05,
                 l2_regularization=0.1,
