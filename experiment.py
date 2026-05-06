@@ -1,46 +1,49 @@
-"""Editable experiment file for the auto-mae skill.
+"""Auto-MAE experiment: port of experiments/hist_gradient_boosting notebook.
 
-Copy this to the project root as `experiment.py` and edit freely. The harness
-(`.claude/skills/auto-mae/eval.py`) and submission builder
-(`.claude/skills/auto-mae/predict.py`) both import the function below.
-
-Required interface:
-    fit_predict(train_records: list[dict], test_records: list[dict]) -> list[float]
-
-`train_records` are dicts with all 47 columns plus `property_value`.
-`test_records` are dicts with the same columns minus `property_value`.
-Return predictions in the same order as `test_records`.
-
-Starter implementation: reproduces baseline/baseline.py (Ridge on 3 features
-with MinMaxScaler) so the very first eval run lands at the baseline number.
+HistGradientBoostingRegressor on all numeric+boolean columns, with median
+imputation. Reproduces the recipe that scored ~66,880 validation MAE on the
+holdout split in the notebook.
 """
 
 import numpy as np
-from sklearn.linear_model import Ridge
-from sklearn.preprocessing import MinMaxScaler
+import pandas as pd
+from sklearn.ensemble import HistGradientBoostingRegressor
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import Pipeline
 
-FEATURE_KEYS = ["built_area", "num_lots", "num_commercial"]
 TARGET_KEY = "property_value"
+RANDOM_STATE = 42
 
 
-def to_matrix(records, keys):
-    return np.array(
-        [[float(r.get(k, 0.0) or 0.0) for k in keys] for r in records],
-        dtype=np.float64,
-    )
+def select_feature_columns(train_records):
+    df = pd.DataFrame(train_records)
+    numeric = df.select_dtypes(include=["number", "bool"]).columns.tolist()
+    return [c for c in numeric if c != TARGET_KEY]
+
+
+def build_model():
+    return Pipeline([
+        ("imputer", SimpleImputer(strategy="median")),
+        (
+            "model",
+            HistGradientBoostingRegressor(
+                max_iter=300,
+                learning_rate=0.05,
+                l2_regularization=0.1,
+                random_state=RANDOM_STATE,
+                early_stopping=True,
+            ),
+        ),
+    ])
 
 
 def fit_predict(train_records, test_records):
-    X_train = to_matrix(train_records, FEATURE_KEYS)
-    y_train = np.array(
-        [float(r[TARGET_KEY]) for r in train_records], dtype=np.float64
-    )
-    X_test = to_matrix(test_records, FEATURE_KEYS)
+    np.random.seed(RANDOM_STATE)
+    feature_columns = select_feature_columns(train_records)
+    X_train = pd.DataFrame(train_records)[feature_columns]
+    y_train = np.array([r[TARGET_KEY] for r in train_records], dtype=np.float64)
+    X_test = pd.DataFrame(test_records).reindex(columns=feature_columns)
 
-    scaler = MinMaxScaler()
-    X_train = scaler.fit_transform(X_train)
-    X_test = scaler.transform(X_test)
-
-    model = Ridge(alpha=10.0)
+    model = build_model()
     model.fit(X_train, y_train)
     return model.predict(X_test).tolist()
