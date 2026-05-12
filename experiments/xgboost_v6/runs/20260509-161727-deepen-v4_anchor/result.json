@@ -1,0 +1,23 @@
+{
+  "run_id": "20260509-161727-deepen-v4_anchor",
+  "family": "xgboost_v6",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Deepen iter1: extend per-type sub-models from promoted v4 top 5 types to top 15 types, keeping n_estimators=4000 and blend=0.3. v5 top10 gave a small lift; this tests whether additional type coverage continues that direction as one architecture knob.",
+  "params_summary": "deepen_iter1_top15_submodels",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 906.6694830000051,
+  "cv_mae": 46946.756808930135,
+  "cv_mae_std": 5238.026247768363,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v6\\work_items\\20260509-161727-deepen-v4_anchor.json",
+  "experiment": "experiments\\xgboost_v6\\runs\\20260509-161727-deepen-v4_anchor\\experiment.py",
+  "stdout": "experiments\\xgboost_v6\\runs\\20260509-161727-deepen-v4_anchor\\stdout.log",
+  "stderr": "experiments\\xgboost_v6\\runs\\20260509-161727-deepen-v4_anchor\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

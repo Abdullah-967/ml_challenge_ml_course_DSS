@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-230358-deepen-lane_a_mls_1",
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_mls_1",
+  "description": "v2 Deepen iter6: min_samples_leaf 2 -> 1 with depth=18 fixed. v1 tested mls=1 with depth=None and saw regression -- but with depth=18 cap, mls=1 may give finer terminal granularity without overfitting.",
+  "params_summary": "single_knob=mls_1",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 233.31889530000626,
+  "cv_mae": 50740.327766803974,
+  "cv_mae_std": 4650.1529962172,
+  "validation_mae": null,
+  "work_item": "experiments\\tree_bagging_rf_v2\\work_items\\20260508-230358-deepen-lane_a_mls_1.json",
+  "experiment": "experiments\\tree_bagging_rf_v2\\runs\\20260508-230358-deepen-lane_a_mls_1\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf_v2\\runs\\20260508-230358-deepen-lane_a_mls_1\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf_v2\\runs\\20260508-230358-deepen-lane_a_mls_1\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "min_samples_leaf_1",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

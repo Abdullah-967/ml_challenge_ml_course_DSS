@@ -1,0 +1,23 @@
+{
+  "run_id": "20260510-033345-tune-v8_tune_iter1_lr_003",
+  "family": "xgboost_v8",
+  "stage": "tune",
+  "feature_lane": "v8_tune_iter1_lr_003",
+  "description": "Tune iter1: smoke-shrink anchor (iter7 recipe at n_est=4000, top_k=10). Single hyperparameter knob: learning_rate 0.05 -> 0.03.",
+  "params_summary": "tune_iter1_lr_003",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 600.0757035000715,
+  "cv_mae": 48454.12438561546,
+  "cv_mae_std": 4999.009626126675,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v8\\work_items\\20260510-033345-tune-v8_tune_iter1_lr_003.json",
+  "experiment": "experiments\\xgboost_v8\\runs\\20260510-033345-tune-v8_tune_iter1_lr_003\\experiment.py",
+  "stdout": "experiments\\xgboost_v8\\runs\\20260510-033345-tune-v8_tune_iter1_lr_003\\stdout.log",
+  "stderr": "experiments\\xgboost_v8\\runs\\20260510-033345-tune-v8_tune_iter1_lr_003\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260510-015847-deepen-v8_presence_flags"
+}

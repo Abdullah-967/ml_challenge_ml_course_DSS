@@ -1,0 +1,18 @@
+{
+  "run_id": "20260506-232455-deepen-geo_signal",
+  "family": "xgboost",
+  "stage": "ablate",
+  "feature_lane": "geo_signal",
+  "description": "ablate c3: drop colsample=0.7 (revert to 0.8)",
+  "params_summary": "ablate_c3=colsample08",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 45.413516500004334,
+  "cv_mae": 49676.07383100182,
+  "cv_mae_std": 4739.437727814112,
+  "work_item": "experiments\\xgboost\\work_items\\20260506-232455-deepen-geo_signal.json",
+  "experiment": "experiments\\xgboost\\runs\\20260506-232455-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\xgboost\\runs\\20260506-232455-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\xgboost\\runs\\20260506-232455-deepen-geo_signal\\stderr.log"
+}

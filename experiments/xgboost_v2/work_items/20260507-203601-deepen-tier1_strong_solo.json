@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v2",
+  "stage": "deepen",
+  "feature_lane": "tier1_strong_solo",
+  "description": "Stage 3 tune iter5: min_child_weight=10.",
+  "params_summary": "single_knob=mcw10",
+  "seed": 42,
+  "run_id": "20260507-203601-deepen-tier1_strong_solo",
+  "experiment_source": "experiments\\xgboost_v2\\current_experiment.py",
+  "created_at": "20260507-203601",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "mcw 5 -> 10",
+  "feature_group": "hyperparam",
+  "anchor_run_id": "20260507-202310-deepen-tier1_strong_solo"
+}

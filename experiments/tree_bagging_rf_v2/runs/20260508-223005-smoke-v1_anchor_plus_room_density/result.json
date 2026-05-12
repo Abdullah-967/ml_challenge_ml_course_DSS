@@ -1,0 +1,22 @@
+{
+  "run_id": "20260508-223005-smoke-v1_anchor_plus_room_density",
+  "family": "tree_bagging_rf_v2",
+  "stage": "smoke",
+  "feature_lane": "v1_anchor_plus_room_density",
+  "description": "v2 Smoke lane C: v1 promoted recipe + 10 room density ratios (area_*/num_* per apt/house room bucket). Anchor v1 (50663.64). Hypothesis: per-room area is a per-dwelling size signal that aggregate built_area misses; protected against zero-num denominators.",
+  "params_summary": "single_knob=room_area_density_ratios",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 245.74999270000262,
+  "cv_mae": 50575.66355554756,
+  "cv_mae_std": 4719.43985934277,
+  "validation_mae": null,
+  "work_item": "experiments\\tree_bagging_rf_v2\\work_items\\20260508-223005-smoke-v1_anchor_plus_room_density.json",
+  "experiment": "experiments\\tree_bagging_rf_v2\\runs\\20260508-223005-smoke-v1_anchor_plus_room_density\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf_v2\\runs\\20260508-223005-smoke-v1_anchor_plus_room_density\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf_v2\\runs\\20260508-223005-smoke-v1_anchor_plus_room_density\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "room_area_density_ratios",
+  "feature_group": "derived_ratios"
+}

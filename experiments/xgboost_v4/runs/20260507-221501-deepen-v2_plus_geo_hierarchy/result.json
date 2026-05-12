@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-221501-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter10: drop dept_code and region_code native cats. Test whether they're load-bearing in W''.",
+  "params_summary": "deepen_iter10_drop_geo_hierarchy",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 36.97576729999855,
+  "cv_mae": 49181.91691021415,
+  "cv_mae_std": 5115.375392947686,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260507-221501-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260507-221501-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260507-221501-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260507-221501-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_dept_region_cats",
+  "feature_group": "model_simplify",
+  "anchor_run_id": "20260507-220558-deepen-v2_plus_geo_hierarchy"
+}

@@ -1,0 +1,30 @@
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\abdul\AppData\Roaming\Python\Python314\site-packages\sklearn\impute\_base.py:641: UserWarning: Skipping features without any observed values: ['built_per_premise' 'land_per_lot' 'commercial_share' 'apt_share'
+ 'houses_per_premise']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(

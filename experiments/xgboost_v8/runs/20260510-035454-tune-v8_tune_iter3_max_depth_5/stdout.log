@@ -1,0 +1,16 @@
+fold_0_mae: 45,859.8980 (117.51s)
+fold_1_mae: 48,125.4939 (112.57s)
+fold_2_mae: 40,743.7312 (102.46s)
+fold_3_mae: 56,084.3231 (99.24s)
+fold_4_mae: 48,769.7608 (97.09s)
+cv_mae: 47,916.641383
+cv_mae_std: 4,963.129888
+runtime_seconds: 529.38
+{
+  "cv_mae": 47916.64138268831,
+  "cv_mae_std": 4963.129888104816,
+  "runtime_seconds": 529.3832001999253,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v8\\runs\\20260510-035454-tune-v8_tune_iter3_max_depth_5\\experiment.py"
+}

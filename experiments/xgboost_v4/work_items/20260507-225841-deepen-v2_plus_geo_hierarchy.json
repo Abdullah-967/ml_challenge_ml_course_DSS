@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter20: drop cadastral_first cat. Cad sections nest within communes; may be redundant with commune_first cat.",
+  "params_summary": "deepen_iter20_drop_cadastral_first",
+  "seed": 42,
+  "run_id": "20260507-225841-deepen-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-225841",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_cadastral_first",
+  "feature_group": "model_simplify",
+  "anchor_run_id": "20260507-220558-deepen-v2_plus_geo_hierarchy"
+}

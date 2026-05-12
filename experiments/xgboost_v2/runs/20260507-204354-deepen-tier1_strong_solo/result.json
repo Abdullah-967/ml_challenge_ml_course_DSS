@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-204354-deepen-tier1_strong_solo",
+  "family": "xgboost_v2",
+  "stage": "deepen",
+  "feature_lane": "tier1_strong_solo",
+  "description": "Stage 3 tune iter10: reg_alpha=1.0; add L1 reg.",
+  "params_summary": "single_knob=alpha1",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 49.936615499987965,
+  "cv_mae": 49390.14426588221,
+  "cv_mae_std": 4911.644713365753,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v2\\work_items\\20260507-204354-deepen-tier1_strong_solo.json",
+  "experiment": "experiments\\xgboost_v2\\runs\\20260507-204354-deepen-tier1_strong_solo\\experiment.py",
+  "stdout": "experiments\\xgboost_v2\\runs\\20260507-204354-deepen-tier1_strong_solo\\stdout.log",
+  "stderr": "experiments\\xgboost_v2\\runs\\20260507-204354-deepen-tier1_strong_solo\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "reg_alpha 0 -> 1.0",
+  "feature_group": "hyperparam",
+  "anchor_run_id": "20260507-203913-deepen-tier1_strong_solo"
+}

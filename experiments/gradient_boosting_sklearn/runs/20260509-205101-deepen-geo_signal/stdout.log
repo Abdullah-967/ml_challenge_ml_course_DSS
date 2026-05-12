@@ -1,0 +1,16 @@
+fold_0_mae: 52,871.3857 (15.01s)
+fold_1_mae: 56,883.8478 (14.05s)
+fold_2_mae: 46,998.2245 (21.36s)
+fold_3_mae: 61,380.9678 (22.35s)
+fold_4_mae: 54,129.2910 (19.08s)
+cv_mae: 54,452.743379
+cv_mae_std: 4,734.674797
+runtime_seconds: 93.75
+{
+  "cv_mae": 54452.743378891086,
+  "cv_mae_std": 4734.674797030591,
+  "runtime_seconds": 93.74928109999746,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\gradient_boosting_sklearn\\runs\\20260509-205101-deepen-geo_signal\\experiment.py"
+}

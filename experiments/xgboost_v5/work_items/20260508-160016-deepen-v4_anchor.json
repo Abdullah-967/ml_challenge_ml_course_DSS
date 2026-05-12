@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v5",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Deepen iter10: ON TOP OF iter9 (top-10 sub-models, KEPT), bump n_estimators 4000->5000 in BOTH global and sub-models. v4 iter38 tested n_est=5000 alone (-66 lift, within noise); compounding with iter9's -130 may clear noise band cumulatively.",
+  "params_summary": "deepen_iter10_top10_nest5000",
+  "seed": 42,
+  "run_id": "20260508-160016-deepen-v4_anchor",
+  "experiment_source": "experiments\\xgboost_v5\\current_experiment.py",
+  "created_at": "20260508-160016",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260508-154428-deepen-v4_anchor"
+}

@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Deepen iter9: add 5 presence flags (has_apt, has_house, has_land, has_commercial, has_built)",
+  "params_summary": "single_knob=presence_flags",
+  "seed": 42,
+  "run_id": "20260507-000930-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-000930",
+  "change_kind": "feature",
+  "hypothesis_unit": "presence_flags",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260507-000647-deepen-numeric_plus_basic_cats"
+}

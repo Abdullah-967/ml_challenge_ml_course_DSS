@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v8",
+  "stage": "deepen",
+  "feature_lane": "v8_drop_density",
+  "description": "Deepen iter2: discard direction. DROP all 10 room_area_density_ratios from iter1's NUMERIC_COLUMNS. Single feature knob. Tests whether iter1's +1733 regression vs v7 promoted is attributable to those 10 columns. Also confirms v7-promoted reproducibility under v8 family pipeline.",
+  "params_summary": "deepen_iter2_drop_density",
+  "seed": 42,
+  "run_id": "20260509-232317-deepen-v8_drop_density",
+  "experiment_source": "experiments\\xgboost_v8\\variants\\deepen_iter2_drop_density.py",
+  "created_at": "20260509-232317",
+  "change_kind": "feature",
+  "hypothesis_unit": "room_area_density_ratios",
+  "feature_group": "derived_ratios",
+  "anchor_run_id": "20260509-224734-deepen-v8_b_density_restored"
+}

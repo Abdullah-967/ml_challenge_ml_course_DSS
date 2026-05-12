@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Deepen iter4: add transaction_date as date_ordinal (days since 2014-01-01)",
+  "params_summary": "single_knob=date_ordinal",
+  "seed": 42,
+  "run_id": "20260507-000239-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-000239",
+  "change_kind": "feature",
+  "hypothesis_unit": "transaction_date_ordinal",
+  "feature_group": "temporal",
+  "anchor_run_id": "20260507-000122-deepen-numeric_plus_basic_cats"
+}

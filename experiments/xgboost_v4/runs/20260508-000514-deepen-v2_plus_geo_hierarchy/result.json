@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-000514-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter38: n_estimators=5000. Push capacity ceiling further.",
+  "params_summary": "deepen_iter38_nest_5000",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 572.1049348000088,
+  "cv_mae": 47041.54518360952,
+  "cv_mae_std": 5297.923104301265,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260508-000514-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260508-000514-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260508-000514-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260508-000514-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_est_5000",
+  "feature_group": "model_capacity",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

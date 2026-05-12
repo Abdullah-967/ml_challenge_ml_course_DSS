@@ -1,0 +1,18 @@
+{
+  "run_id": "20260506-224330-deepen-geo_signal",
+  "family": "xgboost",
+  "stage": "tune",
+  "feature_lane": "geo_signal",
+  "description": "tune iter1: lr=0.025, n_est=1000",
+  "params_summary": "single_knob=lr025_nest1000",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 67.0195243999915,
+  "cv_mae": 50991.88965467175,
+  "cv_mae_std": 5083.452934073871,
+  "work_item": "experiments\\xgboost\\work_items\\20260506-224330-deepen-geo_signal.json",
+  "experiment": "experiments\\xgboost\\runs\\20260506-224330-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\xgboost\\runs\\20260506-224330-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\xgboost\\runs\\20260506-224330-deepen-geo_signal\\stderr.log"
+}

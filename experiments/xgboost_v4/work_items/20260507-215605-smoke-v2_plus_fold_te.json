@@ -1,0 +1,14 @@
+{
+  "family": "xgboost_v4",
+  "stage": "smoke",
+  "feature_lane": "v2_plus_fold_te",
+  "description": "Smoke Lane C: v2 base + fold-safe target encoding on commune_first (smooth=30). TE computed on train fold only, applied to validation. Adds smoothed mean(log1p(value)) signal beyond native cat encoding.",
+  "params_summary": "smoke_laneC_fold_te30",
+  "seed": 42,
+  "run_id": "20260507-215605-smoke-v2_plus_fold_te",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-215605",
+  "change_kind": "feature",
+  "hypothesis_unit": "fold_safe_commune_te30",
+  "feature_group": "geography_te"
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-232100-smoke-v4_plus_parcel_numeric",
+  "family": "xgboost_v6",
+  "stage": "smoke",
+  "feature_lane": "v4_plus_parcel_numeric",
+  "description": "Smoke Lane B: v4 W''''' anchor + bounded numeric components parsed from first parcel_id (prefix code and parcel number). Tests whether within-section parcel positioning adds signal to the promoted v4 recipe without using raw high-cardinality IDs.",
+  "params_summary": "smoke_laneB_v4_parcel_numeric_components",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 1554.5094884999999,
+  "cv_mae": 48219.94573006666,
+  "cv_mae_std": 5176.027676682433,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v6\\work_items\\20260508-232100-smoke-v4_plus_parcel_numeric.json",
+  "experiment": "experiments\\xgboost_v6\\runs\\20260508-232100-smoke-v4_plus_parcel_numeric\\experiment.py",
+  "stdout": "experiments\\xgboost_v6\\runs\\20260508-232100-smoke-v4_plus_parcel_numeric\\stdout.log",
+  "stderr": "experiments\\xgboost_v6\\runs\\20260508-232100-smoke-v4_plus_parcel_numeric\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "parcel_numeric_components",
+  "feature_group": "id_derived",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

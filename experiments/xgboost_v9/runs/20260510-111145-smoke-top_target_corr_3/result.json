@@ -1,0 +1,22 @@
+{
+  "run_id": "20260510-111145-smoke-top_target_corr_3",
+  "family": "xgboost_v9",
+  "stage": "smoke",
+  "feature_lane": "top_target_corr_3",
+  "description": "Smoke iter1: XGBoost on top-3 target-correlated non-redundant features (built_area, num_lots, num_commercial) per mfm_cli analyze. First-principles 3-feature anchor analogous to baseline. Compare to xgboost_v3 baseline_three_only smoke (62674) and Ridge baseline.",
+  "params_summary": "smoke_iter1_top_target_corr_3",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 20.991749500040896,
+  "cv_mae": 62279.782098542106,
+  "cv_mae_std": 4358.228277139309,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v9\\work_items\\20260510-111145-smoke-top_target_corr_3.json",
+  "experiment": "experiments\\xgboost_v9\\runs\\20260510-111145-smoke-top_target_corr_3\\experiment.py",
+  "stdout": "experiments\\xgboost_v9\\runs\\20260510-111145-smoke-top_target_corr_3\\stdout.log",
+  "stderr": "experiments\\xgboost_v9\\runs\\20260510-111145-smoke-top_target_corr_3\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "top_target_corr_triplet",
+  "feature_group": "structural_numeric"
+}

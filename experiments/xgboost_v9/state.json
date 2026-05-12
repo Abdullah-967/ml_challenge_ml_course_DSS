@@ -1,0 +1,11 @@
+{
+  "family": "xgboost_v9",
+  "active_stage": "deepen",
+  "created_at": "20260510-110339",
+  "stage_counts": {
+    "smoke": 3,
+    "deepen": 15
+  },
+  "latest_run_id": "20260510-112933-deepen-lean_5_top_signal",
+  "best_run_id": "20260510-112454-deepen-backward_select_drop_month"
+}

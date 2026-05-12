@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-224002-deepen-lane_a_plus_room_density",
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_plus_room_density",
+  "description": "v2 Deepen iter2: lane A (built_rel_type) + room_area_density_ratios cumulative. Lane C alone showed -88 vs anchor; cumulative may push -180 if the two signals are non-redundant.",
+  "params_summary": "single_knob=room_density_cumulative",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 256.7480080999958,
+  "cv_mae": 50705.800985136455,
+  "cv_mae_std": 4712.801637229877,
+  "validation_mae": null,
+  "work_item": "experiments\\tree_bagging_rf_v2\\work_items\\20260508-224002-deepen-lane_a_plus_room_density.json",
+  "experiment": "experiments\\tree_bagging_rf_v2\\runs\\20260508-224002-deepen-lane_a_plus_room_density\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf_v2\\runs\\20260508-224002-deepen-lane_a_plus_room_density\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf_v2\\runs\\20260508-224002-deepen-lane_a_plus_room_density\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "room_area_density_ratios",
+  "feature_group": "derived_ratios",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

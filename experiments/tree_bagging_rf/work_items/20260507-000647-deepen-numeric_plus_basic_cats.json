@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Deepen iter7: log1p target -- HGB iter21 saw lift, xgboost saw none; RF with squared_error criterion may benefit",
+  "params_summary": "single_knob=log1p_target",
+  "seed": 42,
+  "run_id": "20260507-000647-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-000647",
+  "change_kind": "target",
+  "hypothesis_unit": "log1p_target",
+  "feature_group": "target_transform",
+  "anchor_run_id": "20260507-000534-deepen-numeric_plus_basic_cats"
+}

@@ -1,0 +1,16 @@
+fold_0_mae: 48,948.8445 (47.21s)
+fold_1_mae: 51,893.2812 (43.19s)
+fold_2_mae: 42,860.2412 (42.86s)
+fold_3_mae: 57,737.5380 (43.03s)
+fold_4_mae: 51,389.9673 (44.52s)
+cv_mae: 50,565.974406
+cv_mae_std: 4,813.843906
+runtime_seconds: 222.44
+{
+  "cv_mae": 50565.974406053036,
+  "cv_mae_std": 4813.843905796193,
+  "runtime_seconds": 222.44242870000016,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\tree_bagging_rf_v2\\runs\\20260508-222002-smoke-v1_anchor_plus_built_rel_type\\experiment.py"
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "20260506-223101-deepen-geo_signal",
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "deepen iter7: avg area per apt/house",
+  "params_summary": "single_knob=avg_area_per_unit",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 36.188519400006044,
+  "cv_mae": 51471.74678372618,
+  "cv_mae_std": 5093.853821584659,
+  "work_item": "experiments\\xgboost\\work_items\\20260506-223101-deepen-geo_signal.json",
+  "experiment": "experiments\\xgboost\\runs\\20260506-223101-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\xgboost\\runs\\20260506-223101-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\xgboost\\runs\\20260506-223101-deepen-geo_signal\\stderr.log"
+}

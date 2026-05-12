@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_mf_0_3",
+  "description": "v2 Deepen iter10: max_features 0.4 -> 0.3 on lane A. v1 tested 0.5/0.7/sqrt + 0.4 won. Below 0.4 untested; more aggressive feature decorrelation between trees may help with the built_rel_type addition.",
+  "params_summary": "single_knob=mf_0_3",
+  "seed": 42,
+  "run_id": "20260508-233359-deepen-lane_a_mf_0_3",
+  "experiment_source": "experiments\\tree_bagging_rf_v2\\current_experiment.py",
+  "created_at": "20260508-233359",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "max_features_0_3",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

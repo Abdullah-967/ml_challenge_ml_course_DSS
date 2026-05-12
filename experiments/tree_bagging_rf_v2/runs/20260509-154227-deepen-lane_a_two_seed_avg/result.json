@@ -1,0 +1,23 @@
+{
+  "run_id": "20260509-154227-deepen-lane_a_two_seed_avg",
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_two_seed_avg",
+  "description": "v2 Deepen iter13: train RF seed=42 and seed=2026 inline, average predictions. Pure variance reduction (no bias change). v1 iter10 tested 3-seed at depth=None and was within noise; with v2's lane A (built_rel_type, depth=18), two-seed averaging may yield -150 to -250 from noise reduction.",
+  "params_summary": "single_knob=two_seed_avg",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 469.6930085000058,
+  "cv_mae": 50581.7320080845,
+  "cv_mae_std": 4773.425564122345,
+  "validation_mae": null,
+  "work_item": "experiments\\tree_bagging_rf_v2\\work_items\\20260509-154227-deepen-lane_a_two_seed_avg.json",
+  "experiment": "experiments\\tree_bagging_rf_v2\\runs\\20260509-154227-deepen-lane_a_two_seed_avg\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf_v2\\runs\\20260509-154227-deepen-lane_a_two_seed_avg\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf_v2\\runs\\20260509-154227-deepen-lane_a_two_seed_avg\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "two_seed_average",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

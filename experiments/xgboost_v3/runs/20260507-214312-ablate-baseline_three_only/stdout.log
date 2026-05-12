@@ -1,0 +1,16 @@
+fold_0_mae: 62,186.0276 (5.78s)
+fold_1_mae: 64,425.6964 (5.91s)
+fold_2_mae: 55,198.4798 (6.11s)
+fold_3_mae: 68,771.1390 (5.98s)
+fold_4_mae: 62,549.8620 (5.85s)
+cv_mae: 62,626.240945
+cv_mae_std: 4,390.195212
+runtime_seconds: 30.98
+{
+  "cv_mae": 62626.24094467664,
+  "cv_mae_std": 4390.195211933284,
+  "runtime_seconds": 30.975452400016366,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v3\\runs\\20260507-214312-ablate-baseline_three_only\\experiment.py"
+}

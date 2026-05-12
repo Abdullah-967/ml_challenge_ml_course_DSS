@@ -1,0 +1,11 @@
+{
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "deepen iter1: log1p target on geo_signal recipe",
+  "params_summary": "single_knob=log1p_target",
+  "seed": 42,
+  "run_id": "20260506-221828-deepen-geo_signal",
+  "experiment_source": "experiments\\xgboost\\current_experiment.py",
+  "created_at": "20260506-221828"
+}

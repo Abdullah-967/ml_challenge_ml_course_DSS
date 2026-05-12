@@ -1,0 +1,21 @@
+{
+  "run_id": "20260506-235558-smoke-derived_ratios",
+  "family": "tree_bagging_rf",
+  "stage": "smoke",
+  "feature_lane": "derived_ratios",
+  "description": "Smoke iter3: all_numeric + 5 structural ratios (drops OHE cats from iter2)",
+  "params_summary": "single_knob=derived_ratios",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 18.694125499998336,
+  "cv_mae": 61040.7628259043,
+  "cv_mae_std": 3561.8936066842016,
+  "work_item": "experiments\\tree_bagging_rf\\work_items\\20260506-235558-smoke-derived_ratios.json",
+  "experiment": "experiments\\tree_bagging_rf\\runs\\20260506-235558-smoke-derived_ratios\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf\\runs\\20260506-235558-smoke-derived_ratios\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf\\runs\\20260506-235558-smoke-derived_ratios\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "structural_ratios",
+  "feature_group": "structural_ratios"
+}

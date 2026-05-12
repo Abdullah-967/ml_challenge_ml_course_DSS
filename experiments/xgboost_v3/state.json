@@ -1,0 +1,13 @@
+{
+  "family": "xgboost_v3",
+  "active_stage": "promoted",
+  "created_at": "20260507-211638",
+  "stage_counts": {
+    "smoke": 1,
+    "deepen": 10,
+    "ablate": 2,
+    "confirm": 1
+  },
+  "latest_run_id": "20260507-214500-confirm-baseline_three_only",
+  "best_run_id": "20260507-213647-deepen-baseline_three_only"
+}

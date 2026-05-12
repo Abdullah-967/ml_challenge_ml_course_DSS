@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-203913-deepen-tier1_strong_solo",
+  "family": "xgboost_v2",
+  "stage": "deepen",
+  "feature_lane": "tier1_strong_solo",
+  "description": "Stage 3 tune iter7: colsample_bytree=0.6.",
+  "params_summary": "single_knob=colsample06",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 61.79384620001656,
+  "cv_mae": 49154.00649740048,
+  "cv_mae_std": 4961.937820802317,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v2\\work_items\\20260507-203913-deepen-tier1_strong_solo.json",
+  "experiment": "experiments\\xgboost_v2\\runs\\20260507-203913-deepen-tier1_strong_solo\\experiment.py",
+  "stdout": "experiments\\xgboost_v2\\runs\\20260507-203913-deepen-tier1_strong_solo\\stdout.log",
+  "stderr": "experiments\\xgboost_v2\\runs\\20260507-203913-deepen-tier1_strong_solo\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "colsample_bytree 0.8 -> 0.6",
+  "feature_group": "hyperparam",
+  "anchor_run_id": "20260507-202310-deepen-tier1_strong_solo"
+}

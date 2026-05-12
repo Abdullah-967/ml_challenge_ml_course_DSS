@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v8",
+  "stage": "tune",
+  "feature_lane": "v8_tune_iter3_max_depth_5",
+  "description": "Tune: tune_iter3_max_depth_5 on iter7 recipe at smoke-shrink (n_est=4000, top_k=10).",
+  "params_summary": "tune_iter3_max_depth_5",
+  "seed": 42,
+  "run_id": "20260510-035454-tune-v8_tune_iter3_max_depth_5",
+  "experiment_source": "experiments\\xgboost_v8\\variants\\tune_iter3_max_depth_5.py",
+  "created_at": "20260510-035454",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260510-015847-deepen-v8_presence_flags"
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-122421-smoke-v4_plus_commune_frequency",
+  "family": "xgboost_v5",
+  "stage": "smoke",
+  "feature_lane": "v4_plus_commune_frequency",
+  "description": "Smoke Lane C: v4 W''''' base + commune_first_freq (fold-safe count of commune_first level in train fold). Distinct from commune-level TE (which failed Lane C in v4 due to noisy 36k means) \u2014 frequency signal measures market liquidity, not mean price. Trees can use it to weight reliability of cat-derived signals.",
+  "params_summary": "smoke_laneC_commune_frequency",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 700.4826926999958,
+  "cv_mae": 48336.9224061166,
+  "cv_mae_std": 4934.642995961086,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v5\\work_items\\20260508-122421-smoke-v4_plus_commune_frequency.json",
+  "experiment": "experiments\\xgboost_v5\\runs\\20260508-122421-smoke-v4_plus_commune_frequency\\experiment.py",
+  "stdout": "experiments\\xgboost_v5\\runs\\20260508-122421-smoke-v4_plus_commune_frequency\\stdout.log",
+  "stderr": "experiments\\xgboost_v5\\runs\\20260508-122421-smoke-v4_plus_commune_frequency\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "commune_frequency",
+  "feature_group": "geography",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

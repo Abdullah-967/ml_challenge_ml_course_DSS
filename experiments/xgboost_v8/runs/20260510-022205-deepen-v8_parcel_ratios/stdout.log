@@ -1,0 +1,16 @@
+fold_0_mae: 48,855.3757 (298.05s)
+fold_1_mae: 48,897.3380 (266.18s)
+fold_2_mae: 41,066.3470 (265.70s)
+fold_3_mae: 55,710.1974 (265.07s)
+fold_4_mae: 49,064.8393 (261.64s)
+cv_mae: 48,718.819469
+cv_mae_std: 4,639.179798
+runtime_seconds: 1357.19
+{
+  "cv_mae": 48718.819468546964,
+  "cv_mae_std": 4639.179798320795,
+  "runtime_seconds": 1357.190591600025,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v8\\runs\\20260510-022205-deepen-v8_parcel_ratios\\experiment.py"
+}

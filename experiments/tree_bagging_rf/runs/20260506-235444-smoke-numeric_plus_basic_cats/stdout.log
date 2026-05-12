@@ -1,0 +1,16 @@
+fold_0_mae: 62,502.5298 (3.65s)
+fold_1_mae: 63,495.1432 (3.45s)
+fold_2_mae: 54,321.9181 (3.48s)
+fold_3_mae: 63,928.3515 (3.51s)
+fold_4_mae: 60,380.3493 (3.45s)
+cv_mae: 60,925.658390
+cv_mae_std: 3,521.695311
+runtime_seconds: 18.90
+{
+  "cv_mae": 60925.65839035219,
+  "cv_mae_std": 3521.6953111850885,
+  "runtime_seconds": 18.90166920000047,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\tree_bagging_rf\\runs\\20260506-235444-smoke-numeric_plus_basic_cats\\experiment.py"
+}

@@ -1,0 +1,16 @@
+fold_0_mae: 53,867.7604 (6.12s)
+fold_1_mae: 57,942.8413 (6.12s)
+fold_2_mae: 47,680.3342 (6.26s)
+fold_3_mae: 62,381.5636 (5.92s)
+fold_4_mae: 55,204.3054 (5.75s)
+cv_mae: 55,415.360986
+cv_mae_std: 4,841.206199
+runtime_seconds: 31.18
+{
+  "cv_mae": 55415.360986244414,
+  "cv_mae_std": 4841.206198698979,
+  "runtime_seconds": 31.17750019999221,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\gradient_boosting_sklearn\\runs\\20260509-200605-smoke-geo_signal\\experiment.py"
+}

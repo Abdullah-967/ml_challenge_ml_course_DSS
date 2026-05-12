@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter2: add fold-safe dept-level TE (smooth=20). 96 dept levels = much more reliable than 36k commune levels; commune TE failed but dept TE may aggregate signal at the right granularity.",
+  "params_summary": "deepen_iter2_dept_te20",
+  "seed": 42,
+  "run_id": "20260507-220033-deepen-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-220033",
+  "change_kind": "feature",
+  "hypothesis_unit": "dept_te_fold_safe",
+  "feature_group": "geography_te",
+  "anchor_run_id": "20260507-215240-smoke-v2_plus_geo_hierarchy"
+}

@@ -1,0 +1,16 @@
+fold_0_mae: 87,590.1504 (5.77s)
+fold_1_mae: 93,906.9768 (4.84s)
+fold_2_mae: 82,405.6760 (5.15s)
+fold_3_mae: 97,908.3867 (5.36s)
+fold_4_mae: 90,287.8488 (5.55s)
+cv_mae: 90,419.807726
+cv_mae_std: 5,300.751734
+runtime_seconds: 28.19
+{
+  "cv_mae": 90419.8077262329,
+  "cv_mae_std": 5300.75173403007,
+  "runtime_seconds": 28.18734140007291,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v10\\runs\\20260510-125151-smoke-transfer_only_3\\experiment.py"
+}

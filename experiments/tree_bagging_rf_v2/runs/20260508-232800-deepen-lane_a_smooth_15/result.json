@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-232800-deepen-lane_a_smooth_15",
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_smooth_15",
+  "description": "v2 Deepen iter9: target_enc smooth 10 -> 15 on lane A. Mid-point between v1's tested 10 (winner) and 20 (baseline). With built_rel_type added in lane A, the optimal smoothing may have shifted slightly higher.",
+  "params_summary": "single_knob=smooth_15",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 287.66904429999704,
+  "cv_mae": 50767.984414555816,
+  "cv_mae_std": 4851.364059014033,
+  "validation_mae": null,
+  "work_item": "experiments\\tree_bagging_rf_v2\\work_items\\20260508-232800-deepen-lane_a_smooth_15.json",
+  "experiment": "experiments\\tree_bagging_rf_v2\\runs\\20260508-232800-deepen-lane_a_smooth_15\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf_v2\\runs\\20260508-232800-deepen-lane_a_smooth_15\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf_v2\\runs\\20260508-232800-deepen-lane_a_smooth_15\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "te_smoothing",
+  "feature_group": "geography",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

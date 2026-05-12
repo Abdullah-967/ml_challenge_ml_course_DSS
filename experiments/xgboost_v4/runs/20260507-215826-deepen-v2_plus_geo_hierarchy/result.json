@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-215826-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter1: add num_communes, num_sections, num_parcels (geographic granularity counts). Single idea: properties spanning multiple geographic units may have different value distributions.",
+  "params_summary": "deepen_iter1_geo_counts",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 39.644306200003484,
+  "cv_mae": 49173.36111639334,
+  "cv_mae_std": 4989.365310530165,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260507-215826-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260507-215826-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260507-215826-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260507-215826-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "geo_count_features",
+  "feature_group": "geography_counts",
+  "anchor_run_id": "20260507-215240-smoke-v2_plus_geo_hierarchy"
+}

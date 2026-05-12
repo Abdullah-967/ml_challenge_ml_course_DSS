@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_month",
+  "description": "Deepen iter11: backward selection drop=month.",
+  "params_summary": "deepen_iter11_drop_month",
+  "seed": 42,
+  "run_id": "20260510-112454-deepen-backward_select_drop_month",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-112454",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_month",
+  "feature_group": "date_time",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

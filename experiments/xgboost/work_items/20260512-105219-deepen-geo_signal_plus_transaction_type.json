@@ -1,0 +1,15 @@
+{
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal_plus_transaction_type",
+  "description": "New xgboost round: add transaction_type as a single native categorical feature on top of the promoted geo_signal recipe.",
+  "params_summary": "single_knob=transaction_type_cat",
+  "seed": 42,
+  "run_id": "20260512-105219-deepen-geo_signal_plus_transaction_type",
+  "experiment_source": "experiments\\xgboost\\current_experiment.py",
+  "created_at": "20260512-105219",
+  "change_kind": "feature",
+  "hypothesis_unit": "transaction_type_category",
+  "feature_group": "property_transaction",
+  "anchor_run_id": "20260506-233001-deepen-geo_signal"
+}

@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v5",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Deepen iter11: ON TOP OF iter10 (top10 sub-models + n_est=5000 KEPT), test mechanically-paired knob lr=0.04 + n_est=6250 (lr*n_est=250 same step budget as iter10's 0.05*5000=250). Slower learning at fixed step budget often extracts more signal.",
+  "params_summary": "deepen_iter11_lr04_nest6250",
+  "seed": 42,
+  "run_id": "20260508-162111-deepen-v4_anchor",
+  "experiment_source": "experiments\\xgboost_v5\\current_experiment.py",
+  "created_at": "20260508-162111",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260508-160016-deepen-v4_anchor"
+}

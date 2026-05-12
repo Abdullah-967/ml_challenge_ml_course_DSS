@@ -1,0 +1,22 @@
+{
+  "run_id": "20260507-004037-deepen-numeric_plus_basic_cats",
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Tune iter9: target_enc smooth=10 (was 20)",
+  "params_summary": "single_knob=smooth10",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 208.6579228000046,
+  "cv_mae": 51017.1926377841,
+  "cv_mae_std": 4700.916174736885,
+  "work_item": "experiments\\tree_bagging_rf\\work_items\\20260507-004037-deepen-numeric_plus_basic_cats.json",
+  "experiment": "experiments\\tree_bagging_rf\\runs\\20260507-004037-deepen-numeric_plus_basic_cats\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf\\runs\\20260507-004037-deepen-numeric_plus_basic_cats\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf\\runs\\20260507-004037-deepen-numeric_plus_basic_cats\\stderr.log",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "target_enc_smooth10",
+  "feature_group": "encoding",
+  "anchor_run_id": "20260507-003626-deepen-numeric_plus_basic_cats"
+}

@@ -1,0 +1,14 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "smoke",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Smoke iter2: all_numeric + OHE(property_type, transaction_type)",
+  "params_summary": "single_knob=numeric_plus_basic_cats",
+  "seed": 42,
+  "run_id": "20260506-235444-smoke-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260506-235444",
+  "change_kind": "feature",
+  "hypothesis_unit": "property_transaction_categories",
+  "feature_group": "property_transaction"
+}

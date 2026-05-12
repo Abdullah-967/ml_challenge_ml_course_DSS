@@ -1,0 +1,16 @@
+fold_0_mae: 49,061.4926 (10.39s)
+fold_1_mae: 52,526.4192 (8.50s)
+fold_2_mae: 42,749.3007 (8.76s)
+fold_3_mae: 58,264.4884 (8.91s)
+fold_4_mae: 51,301.2144 (8.64s)
+cv_mae: 50,780.583048
+cv_mae_std: 5,035.565693
+runtime_seconds: 46.26
+{
+  "cv_mae": 50780.583047824715,
+  "cv_mae_std": 5035.565692916642,
+  "runtime_seconds": 46.261220399988815,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v2\\runs\\20260507-204822-deepen-tier1_strong_solo\\experiment.py"
+}

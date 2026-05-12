@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v8",
+  "stage": "confirm",
+  "feature_lane": "v8_final_seed2026",
+  "description": "Final candidate seed=2026: same recipe as final_seed42 (lr=0.07 + iter7 features + restored capacity), CV split seed=2026 for two-seed agreement.",
+  "params_summary": "final_seed2026_lr_007_restored",
+  "seed": 2026,
+  "run_id": "20260510-054235-confirm-v8_final_seed2026",
+  "experiment_source": "experiments\\xgboost_v8\\variants\\final_seed2026.py",
+  "created_at": "20260510-054235",
+  "change_kind": "diagnostic",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260510-051940-confirm-v8_final_seed42"
+}

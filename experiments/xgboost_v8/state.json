@@ -1,0 +1,13 @@
+{
+  "family": "xgboost_v8",
+  "active_stage": "confirm",
+  "created_at": "20260509-213743",
+  "stage_counts": {
+    "smoke": 3,
+    "deepen": 10,
+    "tune": 10,
+    "confirm": 2
+  },
+  "latest_run_id": "20260510-054235-confirm-v8_final_seed2026",
+  "best_run_id": "20260510-054235-confirm-v8_final_seed2026"
+}

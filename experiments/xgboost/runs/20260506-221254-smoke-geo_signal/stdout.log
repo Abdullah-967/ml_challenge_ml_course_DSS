@@ -1,0 +1,16 @@
+fold_0_mae: 49,784.2425 (7.81s)
+fold_1_mae: 54,007.5020 (7.55s)
+fold_2_mae: 43,388.9572 (7.30s)
+fold_3_mae: 59,004.8356 (7.74s)
+fold_4_mae: 51,464.5331 (7.56s)
+cv_mae: 51,530.014090
+cv_mae_std: 5,125.226150
+runtime_seconds: 38.72
+{
+  "cv_mae": 51530.01409025637,
+  "cv_mae_std": 5125.226149662434,
+  "runtime_seconds": 38.719082399999024,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost\\runs\\20260506-221254-smoke-geo_signal\\experiment.py"
+}

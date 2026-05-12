@@ -1,0 +1,13 @@
+{
+  "family": "xgboost_v4",
+  "active_stage": "promoted",
+  "created_at": "20260507-215123",
+  "stage_counts": {
+    "smoke": 3,
+    "deepen": 40,
+    "ablate": 1,
+    "confirm": 1
+  },
+  "latest_run_id": "20260508-003012-confirm-v2_plus_geo_hierarchy",
+  "best_run_id": "20260508-000514-deepen-v2_plus_geo_hierarchy"
+}

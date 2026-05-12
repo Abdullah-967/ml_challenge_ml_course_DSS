@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-232717-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter29: sub-models with n_est=300 (vs global's 500). Smaller per-type datasets need less capacity.",
+  "params_summary": "deepen_iter29_submodel_nest300",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 55.983583699999144,
+  "cv_mae": 48589.68970642162,
+  "cv_mae_std": 4995.365757098701,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260507-232717-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260507-232717-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260507-232717-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260507-232717-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "submodel_nest_300",
+  "feature_group": "model_specialization",
+  "anchor_run_id": "20260507-231709-deepen-v2_plus_geo_hierarchy"
+}

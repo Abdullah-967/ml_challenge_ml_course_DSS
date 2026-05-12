@@ -1,0 +1,16 @@
+fold_0_mae: 61,510.0325 (4.91s)
+fold_1_mae: 64,932.7133 (4.95s)
+fold_2_mae: 54,707.6399 (4.93s)
+fold_3_mae: 69,057.8370 (6.94s)
+fold_4_mae: 62,271.9857 (8.09s)
+cv_mae: 62,496.041697
+cv_mae_std: 4,704.809125
+runtime_seconds: 30.62
+{
+  "cv_mae": 62496.041697297514,
+  "cv_mae_std": 4704.809125413401,
+  "runtime_seconds": 30.619018500001403,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v3\\runs\\20260507-212614-deepen-baseline_three_only\\experiment.py"
+}

@@ -1,0 +1,15 @@
+{
+  "family": "gradient_boosting_sklearn",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "Deepen iter13: n_estimators 100 -> 200 alone on iter3 anchor (no lr change). Different from iter2's mechanically-paired bump. Single hyperparameter knob. Hypothesis: more boosting stages at the same step size may keep refining residuals; iter2's paired bump halved lr too aggressively.",
+  "params_summary": "GBR(loss=absolute_error,n_est=200,lr=0.1,max_depth=4,subsample=0.8),geo_signal,commune_te(k=20)",
+  "seed": 42,
+  "run_id": "20260509-210426-deepen-geo_signal",
+  "experiment_source": "experiments\\gradient_boosting_sklearn\\current_experiment.py",
+  "created_at": "20260509-210426",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_estimators_200",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260509-202125-deepen-geo_signal"
+}

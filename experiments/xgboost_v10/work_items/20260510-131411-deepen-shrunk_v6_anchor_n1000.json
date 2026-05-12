@@ -1,0 +1,14 @@
+{
+  "family": "xgboost_v10",
+  "stage": "deepen",
+  "feature_lane": "shrunk_v6_anchor_n1000",
+  "description": "Deepen iter1: re-anchor at n_est=1000 (vs Lane 2's 2000) so iter2 with transfer features fits the 10-min budget. Establishes the runtime-safe deepen baseline.",
+  "params_summary": "deepen_iter1_anchor_n1000",
+  "seed": 42,
+  "run_id": "20260510-131411-deepen-shrunk_v6_anchor_n1000",
+  "experiment_source": "experiments\\xgboost_v10\\current_experiment.py",
+  "created_at": "20260510-131411",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "anchor_n1000",
+  "feature_group": "structural_numeric"
+}

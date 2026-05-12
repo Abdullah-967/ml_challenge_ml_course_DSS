@@ -1,0 +1,11 @@
+{
+  "family": "xgboost",
+  "stage": "smoke",
+  "feature_lane": "all_numeric",
+  "description": "smoke test for xgboost using all_numeric",
+  "params_summary": "single_knob=all_numeric",
+  "seed": 42,
+  "run_id": "20260506-220015-smoke-all_numeric",
+  "experiment_source": "experiments\\xgboost\\current_experiment.py",
+  "created_at": "20260506-220015"
+}

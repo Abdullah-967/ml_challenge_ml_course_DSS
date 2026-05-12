@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v8",
+  "stage": "deepen",
+  "feature_lane": "v8_b_density_restored",
+  "description": "Deepen iter1: restore capacity (n_est 4000->8000, top_k 10->15) on lane B (room_area_density_ratios) winner. Establishes restored-capacity reference for v8 deepen anchor.",
+  "params_summary": "deepen_iter1_b_density_restored",
+  "seed": 42,
+  "run_id": "20260509-224734-deepen-v8_b_density_restored",
+  "experiment_source": "experiments\\xgboost_v8\\current_experiment.py",
+  "created_at": "20260509-224734",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "room_area_density_ratios",
+  "feature_group": "derived_ratios",
+  "anchor_run_id": "20260509-214332-smoke-v7_plus_room_density"
+}

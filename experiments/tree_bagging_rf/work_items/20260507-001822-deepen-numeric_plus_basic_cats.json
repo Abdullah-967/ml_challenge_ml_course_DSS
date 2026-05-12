@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Tune iter3: REVERT n_est to 200, set max_depth=None (unlimited)",
+  "params_summary": "single_knob=max_depth_none",
+  "seed": 42,
+  "run_id": "20260507-001822-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-001822",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "max_depth_none",
+  "feature_group": "capacity",
+  "anchor_run_id": "20260507-001214-deepen-numeric_plus_basic_cats"
+}

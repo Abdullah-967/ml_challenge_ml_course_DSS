@@ -1,0 +1,16 @@
+fold_0_mae: 56,151.1613 (5.60s)
+fold_1_mae: 60,562.3834 (4.94s)
+fold_2_mae: 49,495.2669 (5.48s)
+fold_3_mae: 64,639.3748 (5.67s)
+fold_4_mae: 57,171.2432 (5.96s)
+cv_mae: 57,603.885927
+cv_mae_std: 5,025.894986
+runtime_seconds: 28.59
+{
+  "cv_mae": 57603.88592739052,
+  "cv_mae_std": 5025.894986181124,
+  "runtime_seconds": 28.587957500014454,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\gradient_boosting_sklearn\\runs\\20260509-195547-smoke-all_numeric\\experiment.py"
+}
