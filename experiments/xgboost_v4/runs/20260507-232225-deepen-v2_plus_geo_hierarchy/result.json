@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-232225-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter27: per-type sub-models trained on RESIDUALS (target - global_pred) instead of raw target. Final pred = global + sub_residual.",
+  "params_summary": "deepen_iter27_per_type_residual",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 82.09998270001961,
+  "cv_mae": 48525.51402434512,
+  "cv_mae_std": 4695.468113911864,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260507-232225-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260507-232225-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260507-232225-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260507-232225-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "per_type_residual_stack",
+  "feature_group": "stacking",
+  "anchor_run_id": "20260507-231709-deepen-v2_plus_geo_hierarchy"
+}

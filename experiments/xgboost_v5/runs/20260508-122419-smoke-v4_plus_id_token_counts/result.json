@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-122419-smoke-v4_plus_id_token_counts",
+  "family": "xgboost_v5",
+  "stage": "smoke",
+  "feature_lane": "v4_plus_id_token_counts",
+  "description": "Smoke Lane B: v4 W''''' base + bounded-derived id token counts: num_parcel_ids = count(comma tokens in parcel_ids) and num_transferred_parcel_ids. Captures transaction scale/complexity orthogonal to area features. No raw IDs used.",
+  "params_summary": "smoke_laneB_id_token_counts",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 701.7986091999992,
+  "cv_mae": 48801.898668758105,
+  "cv_mae_std": 4890.915782928652,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v5\\work_items\\20260508-122419-smoke-v4_plus_id_token_counts.json",
+  "experiment": "experiments\\xgboost_v5\\runs\\20260508-122419-smoke-v4_plus_id_token_counts\\experiment.py",
+  "stdout": "experiments\\xgboost_v5\\runs\\20260508-122419-smoke-v4_plus_id_token_counts\\stdout.log",
+  "stderr": "experiments\\xgboost_v5\\runs\\20260508-122419-smoke-v4_plus_id_token_counts\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "id_token_counts",
+  "feature_group": "id_derived",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

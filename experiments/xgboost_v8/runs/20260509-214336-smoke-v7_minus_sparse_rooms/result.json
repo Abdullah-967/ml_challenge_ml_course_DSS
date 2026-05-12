@@ -1,0 +1,23 @@
+{
+  "run_id": "20260509-214336-smoke-v7_minus_sparse_rooms",
+  "family": "xgboost_v8",
+  "stage": "smoke",
+  "feature_lane": "v7_minus_sparse_rooms",
+  "description": "Smoke laneC: drop 8 sparse 1-room/2-room layout columns from v7 promoted recipe. Single feature knob.",
+  "params_summary": "smoke_laneC_drop_sparse_room_layout",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 641.066951100016,
+  "cv_mae": 48236.72573734204,
+  "cv_mae_std": 5068.72943458003,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v8\\work_items\\20260509-214336-smoke-v7_minus_sparse_rooms.json",
+  "experiment": "experiments\\xgboost_v8\\runs\\20260509-214336-smoke-v7_minus_sparse_rooms\\experiment.py",
+  "stdout": "experiments\\xgboost_v8\\runs\\20260509-214336-smoke-v7_minus_sparse_rooms\\stdout.log",
+  "stderr": "experiments\\xgboost_v8\\runs\\20260509-214336-smoke-v7_minus_sparse_rooms\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_sparse_room_layout",
+  "feature_group": "room_layout",
+  "anchor_run_id": "20260509-195253-deepen-v6_capacity_path"
+}

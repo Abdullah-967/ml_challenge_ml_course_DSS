@@ -1,0 +1,23 @@
+{
+  "run_id": "20260510-134805-smoke-shrunk_v6_anchor_n1000_plus_velocity",
+  "family": "xgboost_v11",
+  "stage": "smoke",
+  "feature_lane": "shrunk_v6_anchor_n1000_plus_velocity",
+  "description": "Smoke iter3: same anchor n=1000 + 4 fold-safe velocity features (n_txns_prev_60d/180d, avg_built_area_prev_60d, days_since_last_txn). Single-knob feature addition. Compare to Lane 2 (48772.08) for clean velocity lift.",
+  "params_summary": "smoke_iter3_shrunk_v6_plus_velocity",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 176.70384440000635,
+  "cv_mae": 49013.46136523989,
+  "cv_mae_std": 4862.856640407438,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v11\\work_items\\20260510-134805-smoke-shrunk_v6_anchor_n1000_plus_velocity.json",
+  "experiment": "experiments\\xgboost_v11\\runs\\20260510-134805-smoke-shrunk_v6_anchor_n1000_plus_velocity\\experiment.py",
+  "stdout": "experiments\\xgboost_v11\\runs\\20260510-134805-smoke-shrunk_v6_anchor_n1000_plus_velocity\\stdout.log",
+  "stderr": "experiments\\xgboost_v11\\runs\\20260510-134805-smoke-shrunk_v6_anchor_n1000_plus_velocity\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "commune_time_velocity",
+  "feature_group": "date_time",
+  "anchor_run_id": "20260510-134430-smoke-shrunk_v6_anchor_n1000"
+}

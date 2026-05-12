@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${CODEX_PLUGIN_ROOT:-$CLAUDE_PLUGIN_ROOT}/hooks/log_eval.ps1\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

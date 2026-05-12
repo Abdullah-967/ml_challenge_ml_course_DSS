@@ -1,0 +1,23 @@
+{
+  "run_id": "20260509-203134-deepen-geo_signal",
+  "family": "gradient_boosting_sklearn",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "Deepen iter4: max_depth 4 -> 5 chained on iter3 (new family best 54102.89). Single hyperparameter knob. Tests whether depth keeps paying after the clear iter3 win. If this ties, depth is saturated and iter5 pivots to feature scope.",
+  "params_summary": "GBR(loss=absolute_error,n_est=100,lr=0.1,max_depth=5,subsample=0.8),geo_signal,commune_te(k=20)",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 51.902405399945565,
+  "cv_mae": 53653.44144653323,
+  "cv_mae_std": 4911.406513936059,
+  "validation_mae": null,
+  "work_item": "experiments\\gradient_boosting_sklearn\\work_items\\20260509-203134-deepen-geo_signal.json",
+  "experiment": "experiments\\gradient_boosting_sklearn\\runs\\20260509-203134-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\gradient_boosting_sklearn\\runs\\20260509-203134-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\gradient_boosting_sklearn\\runs\\20260509-203134-deepen-geo_signal\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "max_depth_5",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260509-202125-deepen-geo_signal"
+}

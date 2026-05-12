@@ -1,0 +1,14 @@
+{
+  "family": "tree_bagging_rf",
+  "active_stage": "promoted",
+  "created_at": "20260506-235018",
+  "stage_counts": {
+    "smoke": 3,
+    "deepen": 10,
+    "tune": 10,
+    "ablate": 4,
+    "confirm": 1
+  },
+  "latest_run_id": "20260507-010029-deepen-numeric_plus_basic_cats",
+  "best_run_id": "20260507-005053-deepen-numeric_plus_basic_cats"
+}

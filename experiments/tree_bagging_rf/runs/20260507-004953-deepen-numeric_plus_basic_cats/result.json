@@ -1,0 +1,22 @@
+{
+  "run_id": "20260507-004953-deepen-numeric_plus_basic_cats",
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Ablate c1: revert criterion to squared_error",
+  "params_summary": "ablate_c1=criterion_squared_error",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 22.510062399989692,
+  "cv_mae": 51333.953947951224,
+  "cv_mae_std": 4628.455345566885,
+  "work_item": "experiments\\tree_bagging_rf\\work_items\\20260507-004953-deepen-numeric_plus_basic_cats.json",
+  "experiment": "experiments\\tree_bagging_rf\\runs\\20260507-004953-deepen-numeric_plus_basic_cats\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf\\runs\\20260507-004953-deepen-numeric_plus_basic_cats\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf\\runs\\20260507-004953-deepen-numeric_plus_basic_cats\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "ablate_c1_criterion",
+  "feature_group": "loss_alignment",
+  "anchor_run_id": "20260507-004037-deepen-numeric_plus_basic_cats"
+}

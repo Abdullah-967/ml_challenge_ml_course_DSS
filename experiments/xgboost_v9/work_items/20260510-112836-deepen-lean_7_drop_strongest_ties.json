@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "lean_7_drop_strongest_ties",
+  "description": "Deepen iter14 (multi_change): lean_7 = anchor minus the 3 strongest tie-droppers (month -26, num_apt_2_rooms -13, apartment_area +237). Tests cumulative drop of low-information features. After keystone_pair collapse (+4828) we know aggressive drops compound badly; this is the conservative middle ground.",
+  "params_summary": "deepen_iter14_lean_7_multi_change",
+  "seed": 42,
+  "run_id": "20260510-112836-deepen-lean_7_drop_strongest_ties",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-112836",
+  "change_kind": "feature",
+  "hypothesis_unit": "lean_7_subset",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

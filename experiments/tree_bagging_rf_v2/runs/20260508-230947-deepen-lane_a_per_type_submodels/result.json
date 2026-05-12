@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-230947-deepen-lane_a_per_type_submodels",
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_per_type_submodels",
+  "description": "v2 Deepen iter7: per-property-type sub-model architecture on lane A. Train top-3 type sub-RFs (n_est=100, same recipe) on type subsets of train; blend 0.3*sub + 0.7*global for predictions of that type. xgboost_v4 saw -215 cumulative from this exact architecture. Top types: UNE MAISON (10085), UN APPARTEMENT (6443), TERRAIN DE TYPE TERRE ET PRE (2020).",
+  "params_summary": "single_knob=per_type_submodels_top3",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 344.6681021999975,
+  "cv_mae": 50602.36259056847,
+  "cv_mae_std": 4808.996309306984,
+  "validation_mae": null,
+  "work_item": "experiments\\tree_bagging_rf_v2\\work_items\\20260508-230947-deepen-lane_a_per_type_submodels.json",
+  "experiment": "experiments\\tree_bagging_rf_v2\\runs\\20260508-230947-deepen-lane_a_per_type_submodels\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf_v2\\runs\\20260508-230947-deepen-lane_a_per_type_submodels\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf_v2\\runs\\20260508-230947-deepen-lane_a_per_type_submodels\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "per_property_type_submodels",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

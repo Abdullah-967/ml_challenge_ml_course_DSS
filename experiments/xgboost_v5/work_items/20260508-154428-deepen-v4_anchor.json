@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v5",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Deepen iter9: extend per-type sub-models from top 5 to top 10 types. v4 iter23 extended from 2 to 5 (-57 lift); the next-tier types may have enough samples to add similar marginal lift even though smaller.",
+  "params_summary": "deepen_iter9_top10_submodels",
+  "seed": 42,
+  "run_id": "20260508-154428-deepen-v4_anchor",
+  "experiment_source": "experiments\\xgboost_v5\\current_experiment.py",
+  "created_at": "20260508-154428",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Deepen iter3: add cadastral_first target encoding (smooth=20)",
+  "params_summary": "single_knob=cadastral_target_enc20",
+  "seed": 42,
+  "run_id": "20260507-000122-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-000122",
+  "change_kind": "feature",
+  "hypothesis_unit": "cadastral_first_target_enc",
+  "feature_group": "geography",
+  "anchor_run_id": "20260507-000004-deepen-numeric_plus_basic_cats"
+}

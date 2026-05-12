@@ -1,0 +1,46 @@
+column	kind	n_unique	non_null_frac	pearson_vs_target	spearman_vs_target	single_col_cv_mae	improvement_vs_median
+built_area	numeric	753	1.0	0.551	0.723	73847.3	18827.1
+property_type	low_card_cat	25	1.0			84687.7	7986.7
+house_area	numeric	329	1.0	0.072	0.572	85730.9	6943.5
+area_house_5plus_rooms	numeric	255	1.0	0.068	0.434	89119.0	3555.4
+num_houses	numeric	12	1.0	0.051	0.521	91293.0	1381.4
+apartment_area	numeric	326	1.0	0.056	-0.018	91525.7	1148.7
+num_house_5plus_rooms	numeric	5	1.0	0.056	0.426	91683.4	991.0
+num_premises	numeric	36	1.0	0.163	0.351	92361.5	312.9
+num_apartments	numeric	23	1.0	0.06	-0.055	94543.4	-1869.0
+area_apt_1_room	numeric	181	1.0	0.024	-0.121	96010.7	-3336.3
+num_apt_1_room	numeric	18	1.0	0.02	-0.122	96248.5	-3574.1
+num_lots	numeric	31	1.0	0.379	-0.081	96844.4	-4169.9
+num_dependencies	numeric	23	1.0	0.011	-0.045	97184.7	-4510.3
+area_house_4_rooms	numeric	167	1.0	0.03	0.268	97289.9	-4615.5
+area_apt_2_rooms	numeric	170	1.0	0.128	-0.018	97372.0	-4697.6
+num_apt_2_rooms	numeric	13	1.0	0.128	-0.02	97467.1	-4792.7
+num_house_4_rooms	numeric	7	1.0	0.021	0.263	97721.9	-5047.5
+area_apt_5plus_rooms	numeric	118	1.0	0.03	0.077	98476.9	-5802.4
+transaction_type	low_card_cat	6	1.0			98563.3	-5888.8
+area_apt_4_rooms	numeric	111	1.0	0.004	0.063	98697.0	-6022.5
+area_apt_3_rooms	numeric	139	1.0	0.025	0.07	98737.7	-6063.2
+num_apt_5plus_rooms	numeric	6	1.0	0.019	0.077	98815.5	-6141.0
+num_apt_3_rooms	numeric	11	1.0	0.022	0.069	98855.4	-6180.9
+year	numeric	8	1.0	0.014	0.099	98944.8	-6270.3
+num_house_2_rooms	numeric	5	1.0	-0.005	-0.005	98963.7	-6289.3
+num_house_1_room	numeric	6	1.0	-0.0	-0.016	98994.4	-6320.0
+region_name	low_card_cat	1	1.0			99015.2	-6340.7
+dept_name	low_card_cat	1	1.0			99015.2	-6340.7
+dept_code	numeric	1	1.0			99015.2	-6340.7
+region_code	numeric	1	1.0			99015.2	-6340.7
+area_house_2_rooms	numeric	99	1.0	-0.005	-0.005	99024.9	-6350.4
+num_apt_4_rooms	numeric	7	1.0	0.001	0.063	99028.2	-6353.8
+area_house_1_room	numeric	98	1.0	0.002	-0.016	99043.1	-6368.6
+future_sale	numeric	2	1.0	0.027	0.138	99066.4	-6392.0
+num_sections	numeric	14	1.0	0.001	-0.08	99070.3	-6395.9
+area_house_3_rooms	numeric	147	1.0	0.021	0.076	99190.2	-6515.8
+num_communes	numeric	7	1.0	0.021	-0.048	99266.3	-6591.9
+num_house_3_rooms	numeric	8	1.0	0.021	0.074	99303.4	-6629.0
+month	numeric	12	1.0	-0.001	0.025	99678.1	-7003.7
+commune_codes	numeric	40	0.988	0.008	0.037	100352.4	-7677.9
+num_parcels	numeric	62	1.0	0.044	-0.004	100958.5	-8284.1
+cadastral_sections	multi_value_str	198	1.0			101020.0	-8345.5
+land_area	numeric	5237	1.0	0.034	0.087	101165.2	-8490.7
+num_commercial	numeric	21	1.0	0.343	0.119	101327.2	-8652.8
+transaction_date	multi_value_str	2181	1.0			101491.6	-8817.2

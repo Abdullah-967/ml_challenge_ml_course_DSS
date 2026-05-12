@@ -1,0 +1,18 @@
+{
+  "run_id": "20260506-233001-deepen-geo_signal",
+  "family": "xgboost",
+  "stage": "confirm",
+  "feature_lane": "geo_signal",
+  "description": "confirm seed=2026: promoted recipe (max_depth=6 only)",
+  "params_summary": "confirm_seed2026",
+  "seed": 2026,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 43.69406130000425,
+  "cv_mae": 49827.4843764683,
+  "cv_mae_std": 4929.99839871536,
+  "work_item": "experiments\\xgboost\\work_items\\20260506-233001-deepen-geo_signal.json",
+  "experiment": "experiments\\xgboost\\runs\\20260506-233001-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\xgboost\\runs\\20260506-233001-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\xgboost\\runs\\20260506-233001-deepen-geo_signal\\stderr.log"
+}

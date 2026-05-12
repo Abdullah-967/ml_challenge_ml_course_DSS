@@ -1,0 +1,16 @@
+fold_0_mae: 46,754.2671 (339.88s)
+fold_1_mae: 46,986.0341 (287.34s)
+fold_2_mae: 41,222.5861 (285.28s)
+fold_3_mae: 56,077.0294 (290.98s)
+fold_4_mae: 48,854.5537 (283.90s)
+cv_mae: 47,978.894093
+cv_mae_std: 4,784.971381
+runtime_seconds: 1488.14
+{
+  "cv_mae": 47978.89409290442,
+  "cv_mae_std": 4784.971381405014,
+  "runtime_seconds": 1488.1383438999765,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v8\\runs\\20260509-232317-deepen-v8_drop_density\\experiment.py"
+}

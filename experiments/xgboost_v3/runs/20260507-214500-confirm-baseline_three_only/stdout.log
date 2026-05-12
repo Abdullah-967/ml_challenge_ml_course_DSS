@@ -1,0 +1,16 @@
+fold_0_mae: 59,125.1449 (6.53s)
+fold_1_mae: 57,250.8890 (5.01s)
+fold_2_mae: 66,033.2724 (4.62s)
+fold_3_mae: 61,963.4379 (4.38s)
+fold_4_mae: 68,997.6517 (4.49s)
+cv_mae: 62,674.079203
+cv_mae_std: 4,330.881819
+runtime_seconds: 26.22
+{
+  "cv_mae": 62674.07920276711,
+  "cv_mae_std": 4330.881818507029,
+  "runtime_seconds": 26.216053999989526,
+  "splits": 5,
+  "seed": 2026,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v3\\runs\\20260507-214500-confirm-baseline_three_only\\experiment.py"
+}

@@ -1,0 +1,14 @@
+{
+  "family": "xgboost_v9",
+  "stage": "smoke",
+  "feature_lane": "count_only_3",
+  "description": "Smoke iter3: XGBoost on pure-count triplet (num_lots, num_commercial, num_premises). Closes the first-principles smoke triad (mixed vs area-only vs count-only).",
+  "params_summary": "smoke_iter3_count_only_3",
+  "seed": 42,
+  "run_id": "20260510-111428-smoke-count_only_3",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-111428",
+  "change_kind": "feature",
+  "hypothesis_unit": "count_only_triplet",
+  "feature_group": "structural_numeric"
+}

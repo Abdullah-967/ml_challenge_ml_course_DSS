@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-220411-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter4: add total_rooms = sum of all num_*_rooms columns. Different size proxy than area features.",
+  "params_summary": "deepen_iter4_total_rooms",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 44.47224119998282,
+  "cv_mae": 49002.776662187556,
+  "cv_mae_std": 5037.333167720818,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260507-220411-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260507-220411-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260507-220411-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260507-220411-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "total_rooms",
+  "feature_group": "derived_aggregates",
+  "anchor_run_id": "20260507-220239-deepen-v2_plus_geo_hierarchy"
+}

@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v8",
+  "stage": "deepen",
+  "feature_lane": "v8_iter7_minus_sparse",
+  "description": "Deepen iter10: anchored on iter7 (family-best). DROP 8 sparse 1-room/2-room raw cols. Single feature knob. Closes deepen at min=10.",
+  "params_summary": "deepen_iter10_compose_drop_sparse",
+  "seed": 42,
+  "run_id": "20260510-031025-deepen-v8_iter7_minus_sparse",
+  "experiment_source": "experiments\\xgboost_v8\\variants\\deepen_iter10_compose_drop_sparse.py",
+  "created_at": "20260510-031025",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_sparse_room_layout",
+  "feature_group": "room_layout",
+  "anchor_run_id": "20260510-015847-deepen-v8_presence_flags"
+}

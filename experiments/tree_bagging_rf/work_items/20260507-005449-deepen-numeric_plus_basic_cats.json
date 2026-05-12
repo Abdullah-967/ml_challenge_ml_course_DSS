@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Ablate c3: revert max_features to sqrt",
+  "params_summary": "ablate_c3=mf_sqrt",
+  "seed": 42,
+  "run_id": "20260507-005449-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-005449",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "ablate_c3_max_features",
+  "feature_group": "capacity",
+  "anchor_run_id": "20260507-004037-deepen-numeric_plus_basic_cats"
+}

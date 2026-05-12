@@ -1,0 +1,16 @@
+fold_0_mae: 45,640.8873 (35.19s)
+fold_1_mae: 45,052.4676 (35.92s)
+fold_2_mae: 40,620.6008 (36.09s)
+fold_3_mae: 56,601.8361 (34.49s)
+fold_4_mae: 49,045.2889 (34.27s)
+cv_mae: 47,392.216155
+cv_mae_std: 5,328.153531
+runtime_seconds: 176.25
+{
+  "cv_mae": 47392.2161547835,
+  "cv_mae_std": 5328.153530651825,
+  "runtime_seconds": 176.2535659999994,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v4\\runs\\20260508-002700-ablate-v2_plus_geo_hierarchy\\experiment.py"
+}

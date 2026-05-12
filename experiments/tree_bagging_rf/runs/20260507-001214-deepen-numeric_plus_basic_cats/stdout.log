@@ -1,0 +1,16 @@
+fold_0_mae: 50,534.8699 (15.96s)
+fold_1_mae: 55,419.6136 (14.89s)
+fold_2_mae: 44,695.6352 (14.51s)
+fold_3_mae: 60,002.7797 (15.02s)
+fold_4_mae: 52,790.2524 (14.82s)
+cv_mae: 52,688.630162
+cv_mae_std: 5,089.047706
+runtime_seconds: 76.17
+{
+  "cv_mae": 52688.63016186476,
+  "cv_mae_std": 5089.047706090005,
+  "runtime_seconds": 76.17260889998579,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\tree_bagging_rf\\runs\\20260507-001214-deepen-numeric_plus_basic_cats\\experiment.py"
+}

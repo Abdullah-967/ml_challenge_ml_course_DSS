@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v8",
+  "stage": "deepen",
+  "feature_lane": "v8_drop_sparse_plus_cadastral",
+  "description": "Deepen iter4: anchored on iter3 (drop sparse + no density). ADD num_parcels, num_sections, num_communes, num_dependencies. Single feature knob from iter3.",
+  "params_summary": "deepen_iter4_add_cadastral",
+  "seed": 42,
+  "run_id": "20260510-004926-deepen-v8_drop_sparse_plus_cadastral",
+  "experiment_source": "experiments\\xgboost_v8\\variants\\deepen_iter4_add_cadastral.py",
+  "created_at": "20260510-004926",
+  "change_kind": "feature",
+  "hypothesis_unit": "structural_numeric_baseline",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260509-235345-deepen-v8_drop_sparse_rooms"
+}

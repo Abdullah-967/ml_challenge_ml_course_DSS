@@ -1,0 +1,23 @@
+{
+  "run_id": "20260512-105219-deepen-geo_signal_plus_transaction_type",
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal_plus_transaction_type",
+  "description": "New xgboost round: add transaction_type as a single native categorical feature on top of the promoted geo_signal recipe.",
+  "params_summary": "single_knob=transaction_type_cat",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 51.525845299998764,
+  "cv_mae": 49486.34437710626,
+  "cv_mae_std": 4818.053408615316,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost\\work_items\\20260512-105219-deepen-geo_signal_plus_transaction_type.json",
+  "experiment": "experiments\\xgboost\\runs\\20260512-105219-deepen-geo_signal_plus_transaction_type\\experiment.py",
+  "stdout": "experiments\\xgboost\\runs\\20260512-105219-deepen-geo_signal_plus_transaction_type\\stdout.log",
+  "stderr": "experiments\\xgboost\\runs\\20260512-105219-deepen-geo_signal_plus_transaction_type\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "transaction_type_category",
+  "feature_group": "property_transaction",
+  "anchor_run_id": "20260506-233001-deepen-geo_signal"
+}

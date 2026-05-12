@@ -1,0 +1,15 @@
+{
+  "family": "gradient_boosting_sklearn",
+  "stage": "smoke",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Smoke lane B: lane-A anchor plus one-hot encoded property_type (25 cats) and transaction_type (6 cats). Tests whether low-cardinality property/transaction class signal lifts GBR over the numeric-only baseline. Single-knob: feature scope only; model hyperparameters unchanged.",
+  "params_summary": "GBR(loss=absolute_error,n_est=100,lr=0.1,max_depth=3,subsample=0.8),numeric_plus_basic_cats,ohe(property_type+transaction_type)",
+  "seed": 42,
+  "run_id": "20260509-195905-smoke-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\gradient_boosting_sklearn\\current_experiment.py",
+  "created_at": "20260509-195905",
+  "change_kind": "feature",
+  "hypothesis_unit": "property_transaction_categories",
+  "feature_group": "property_transaction",
+  "anchor_run_id": "20260509-195547-smoke-all_numeric"
+}

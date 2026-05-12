@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter27: per-type sub-models trained on RESIDUALS (target - global_pred) instead of raw target. Final pred = global + sub_residual.",
+  "params_summary": "deepen_iter27_per_type_residual",
+  "seed": 42,
+  "run_id": "20260507-232225-deepen-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-232225",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "per_type_residual_stack",
+  "feature_group": "stacking",
+  "anchor_run_id": "20260507-231709-deepen-v2_plus_geo_hierarchy"
+}

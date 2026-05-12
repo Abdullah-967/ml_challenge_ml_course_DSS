@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Tune iter1: criterion=absolute_error -- direct loss-metric alignment for sklearn RF. Note ~10x slower split computation expected.",
+  "params_summary": "single_knob=criterion_absolute_error",
+  "seed": 42,
+  "run_id": "20260507-001214-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-001214",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "criterion_absolute_error",
+  "feature_group": "loss_alignment",
+  "anchor_run_id": "20260507-001053-deepen-numeric_plus_basic_cats"
+}

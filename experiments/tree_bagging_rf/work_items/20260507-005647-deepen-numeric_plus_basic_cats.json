@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Ablate c4: revert bootstrap=True",
+  "params_summary": "ablate_c4=bootstrap_true",
+  "seed": 42,
+  "run_id": "20260507-005647-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-005647",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "ablate_c4_bootstrap",
+  "feature_group": "averaging",
+  "anchor_run_id": "20260507-004037-deepen-numeric_plus_basic_cats"
+}

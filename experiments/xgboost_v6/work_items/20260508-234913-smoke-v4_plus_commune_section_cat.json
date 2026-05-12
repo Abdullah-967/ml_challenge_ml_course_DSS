@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v6",
+  "stage": "smoke",
+  "feature_lane": "v4_plus_commune_section_cat",
+  "description": "Smoke Lane C: v4 W''''' anchor + combined commune_section categorical (commune_first + cadastral_first). Tests geo_granularity: section codes repeat across communes, so a nested combined category may preserve cadastral geography that separate native cats only approximate.",
+  "params_summary": "smoke_laneC_commune_section_cat",
+  "seed": 42,
+  "run_id": "20260508-234913-smoke-v4_plus_commune_section_cat",
+  "experiment_source": "experiments\\xgboost_v6\\current_experiment.py",
+  "created_at": "20260508-234913",
+  "change_kind": "feature",
+  "hypothesis_unit": "geo_granularity",
+  "feature_group": "geography",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

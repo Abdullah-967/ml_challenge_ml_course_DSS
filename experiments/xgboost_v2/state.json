@@ -1,0 +1,14 @@
+{
+  "family": "xgboost_v2",
+  "active_stage": "promoted",
+  "created_at": "20260507-200108",
+  "stage_counts": {
+    "smoke": 3,
+    "deepen": 10,
+    "tune": 10,
+    "ablate": 6,
+    "confirm": 1
+  },
+  "latest_run_id": "20260507-205423-deepen-tier1_strong_solo",
+  "best_run_id": "20260507-203913-deepen-tier1_strong_solo"
+}

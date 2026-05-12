@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_mls_1",
+  "description": "v2 Deepen iter6: min_samples_leaf 2 -> 1 with depth=18 fixed. v1 tested mls=1 with depth=None and saw regression -- but with depth=18 cap, mls=1 may give finer terminal granularity without overfitting.",
+  "params_summary": "single_knob=mls_1",
+  "seed": 42,
+  "run_id": "20260508-230358-deepen-lane_a_mls_1",
+  "experiment_source": "experiments\\tree_bagging_rf_v2\\current_experiment.py",
+  "created_at": "20260508-230358",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "min_samples_leaf_1",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

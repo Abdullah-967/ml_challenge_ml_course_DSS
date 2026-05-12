@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-222706-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter16 (tune): lr=0.03 + n_est=1000. Slower learning, more iterations may extract more signal from current feature set.",
+  "params_summary": "deepen_iter16_lr03_nest1000",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 70.46746829999029,
+  "cv_mae": 48939.33835785744,
+  "cv_mae_std": 5110.865558091598,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260507-222706-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260507-222706-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260507-222706-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260507-222706-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "lr03_nest1000",
+  "feature_group": "model_capacity",
+  "anchor_run_id": "20260507-220558-deepen-v2_plus_geo_hierarchy"
+}

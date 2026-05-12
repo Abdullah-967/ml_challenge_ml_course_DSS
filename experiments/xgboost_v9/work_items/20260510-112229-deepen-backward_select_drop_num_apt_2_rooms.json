@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_num_apt_2_rooms",
+  "description": "Deepen iter8: backward selection drop=num_apt_2_rooms.",
+  "params_summary": "deepen_iter8_drop_num_apt_2_rooms",
+  "seed": 42,
+  "run_id": "20260510-112229-deepen-backward_select_drop_num_apt_2_rooms",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-112229",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_num_apt_2_rooms",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

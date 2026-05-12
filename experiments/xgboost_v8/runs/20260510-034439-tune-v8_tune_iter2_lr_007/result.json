@@ -1,0 +1,23 @@
+{
+  "run_id": "20260510-034439-tune-v8_tune_iter2_lr_007",
+  "family": "xgboost_v8",
+  "stage": "tune",
+  "feature_lane": "v8_tune_iter2_lr_007",
+  "description": "Tune: tune_iter2_lr_007 on iter7 recipe at smoke-shrink (n_est=4000, top_k=10).",
+  "params_summary": "tune_iter2_lr_007",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 589.1899528000504,
+  "cv_mae": 47875.822992224996,
+  "cv_mae_std": 5165.775046150892,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v8\\work_items\\20260510-034439-tune-v8_tune_iter2_lr_007.json",
+  "experiment": "experiments\\xgboost_v8\\runs\\20260510-034439-tune-v8_tune_iter2_lr_007\\experiment.py",
+  "stdout": "experiments\\xgboost_v8\\runs\\20260510-034439-tune-v8_tune_iter2_lr_007\\stdout.log",
+  "stderr": "experiments\\xgboost_v8\\runs\\20260510-034439-tune-v8_tune_iter2_lr_007\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260510-015847-deepen-v8_presence_flags"
+}

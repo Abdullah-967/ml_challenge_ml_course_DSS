@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Deepen iter1: add 5 structural ratios on top of cats baseline",
+  "params_summary": "single_knob=add_ratios",
+  "seed": 42,
+  "run_id": "20260506-235748-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260506-235748",
+  "change_kind": "feature",
+  "hypothesis_unit": "structural_ratios",
+  "feature_group": "structural_ratios",
+  "anchor_run_id": "20260506-235444-smoke-numeric_plus_basic_cats"
+}

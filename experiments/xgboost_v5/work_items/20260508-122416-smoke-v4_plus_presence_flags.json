@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v5",
+  "stage": "smoke",
+  "feature_lane": "v4_plus_presence_flags",
+  "description": "Smoke Lane A: v4 W''''' base + presence flags (binary is_present indicators) for top-importance numeric fields (built_area, house_area, land_area, apartment_area, num_premises, num_houses, num_apartments). Tests whether missingness PATTERN carries signal beyond xgboost's native missing handling.",
+  "params_summary": "smoke_laneA_presence_flags",
+  "seed": 42,
+  "run_id": "20260508-122416-smoke-v4_plus_presence_flags",
+  "experiment_source": "experiments\\xgboost_v5\\current_experiment.py",
+  "created_at": "20260508-122416",
+  "change_kind": "feature",
+  "hypothesis_unit": "presence_flags",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

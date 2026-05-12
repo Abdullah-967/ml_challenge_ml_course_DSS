@@ -1,0 +1,22 @@
+{
+  "run_id": "20260507-001214-deepen-numeric_plus_basic_cats",
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Tune iter1: criterion=absolute_error -- direct loss-metric alignment for sklearn RF. Note ~10x slower split computation expected.",
+  "params_summary": "single_knob=criterion_absolute_error",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 76.17260889998579,
+  "cv_mae": 52688.63016186476,
+  "cv_mae_std": 5089.047706090005,
+  "work_item": "experiments\\tree_bagging_rf\\work_items\\20260507-001214-deepen-numeric_plus_basic_cats.json",
+  "experiment": "experiments\\tree_bagging_rf\\runs\\20260507-001214-deepen-numeric_plus_basic_cats\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf\\runs\\20260507-001214-deepen-numeric_plus_basic_cats\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf\\runs\\20260507-001214-deepen-numeric_plus_basic_cats\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "criterion_absolute_error",
+  "feature_group": "loss_alignment",
+  "anchor_run_id": "20260507-001053-deepen-numeric_plus_basic_cats"
+}

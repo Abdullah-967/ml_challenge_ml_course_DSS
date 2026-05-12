@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "ablate",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Ablate a1: drop per-type sub-models (no SUB_TYPES). Test if the per-type architecture is load-bearing in W'''''.",
+  "params_summary": "ablate_a1_drop_submodels",
+  "seed": 42,
+  "run_id": "20260508-002700-ablate-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260508-002700",
+  "change_kind": "diagnostic",
+  "hypothesis_unit": "ablate_submodels",
+  "feature_group": "ablation",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

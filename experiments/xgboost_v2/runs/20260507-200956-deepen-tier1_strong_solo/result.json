@@ -1,0 +1,22 @@
+{
+  "run_id": "20260507-200956-deepen-tier1_strong_solo",
+  "family": "xgboost_v2",
+  "stage": "deepen",
+  "feature_lane": "tier1_strong_solo",
+  "description": "Deepen iter1: + commune_first (first token of commune_codes) as native xgboost categorical",
+  "params_summary": "single_knob=add_commune_first",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 37.38934910000535,
+  "cv_mae": 55576.54062682891,
+  "cv_mae_std": 4420.4591032547405,
+  "work_item": "experiments\\xgboost_v2\\work_items\\20260507-200956-deepen-tier1_strong_solo.json",
+  "experiment": "experiments\\xgboost_v2\\runs\\20260507-200956-deepen-tier1_strong_solo\\experiment.py",
+  "stdout": "experiments\\xgboost_v2\\runs\\20260507-200956-deepen-tier1_strong_solo\\stdout.log",
+  "stderr": "experiments\\xgboost_v2\\runs\\20260507-200956-deepen-tier1_strong_solo\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "add commune_first native cat",
+  "feature_group": "geo",
+  "anchor_run_id": "20260507-200237-smoke-tier1_strong_solo"
+}

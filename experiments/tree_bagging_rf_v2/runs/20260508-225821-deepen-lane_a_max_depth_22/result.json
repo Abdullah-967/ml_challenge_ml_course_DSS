@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-225821-deepen-lane_a_max_depth_22",
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_max_depth_22",
+  "description": "v2 Deepen iter5: max_depth 18 -> 22 on lane A. v1 ablate found depth=None harmful and depth=18 the sweet spot, but local search beyond 18 wasn't done. With built_rel_type now in the feature mix, a slightly deeper tree may capture missed type-x-size interactions.",
+  "params_summary": "single_knob=max_depth_22",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 240.79730750000454,
+  "cv_mae": 50908.38698550225,
+  "cv_mae_std": 4766.490908810376,
+  "validation_mae": null,
+  "work_item": "experiments\\tree_bagging_rf_v2\\work_items\\20260508-225821-deepen-lane_a_max_depth_22.json",
+  "experiment": "experiments\\tree_bagging_rf_v2\\runs\\20260508-225821-deepen-lane_a_max_depth_22\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf_v2\\runs\\20260508-225821-deepen-lane_a_max_depth_22\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf_v2\\runs\\20260508-225821-deepen-lane_a_max_depth_22\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "max_depth_22",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

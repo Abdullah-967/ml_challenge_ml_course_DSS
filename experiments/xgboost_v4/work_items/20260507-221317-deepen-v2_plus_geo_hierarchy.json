@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter9: add fold-safe TE on property_type (smooth=20). Low cardinality (~10 types) gives stable means; trees can use the continuous TE complementarily to the cat.",
+  "params_summary": "deepen_iter9_proptype_te20",
+  "seed": 42,
+  "run_id": "20260507-221317-deepen-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-221317",
+  "change_kind": "feature",
+  "hypothesis_unit": "property_type_te20",
+  "feature_group": "target_encoding",
+  "anchor_run_id": "20260507-220558-deepen-v2_plus_geo_hierarchy"
+}

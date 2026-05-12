@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_n_est_600",
+  "description": "v2 Deepen iter12: capacity push n_est 200 -> 600 on lane A. Last big-knob within hard-stop budget (~10 min projected). n_est=400 was tied; n_est=600 is the next reasonable step under the policy ceiling.",
+  "params_summary": "single_knob=n_est_600",
+  "seed": 42,
+  "run_id": "20260509-152757-deepen-lane_a_n_est_600",
+  "experiment_source": "experiments\\tree_bagging_rf_v2\\current_experiment.py",
+  "created_at": "20260509-152757",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_est_600",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

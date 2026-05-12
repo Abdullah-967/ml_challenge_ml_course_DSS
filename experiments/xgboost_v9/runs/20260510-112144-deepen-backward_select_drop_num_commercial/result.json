@@ -1,0 +1,23 @@
+{
+  "run_id": "20260510-112144-deepen-backward_select_drop_num_commercial",
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_num_commercial",
+  "description": "Deepen iter7: backward selection drop=num_commercial.",
+  "params_summary": "deepen_iter7_drop_num_commercial",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 25.303467899910174,
+  "cv_mae": 58968.75675150424,
+  "cv_mae_std": 4679.597725620433,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v9\\work_items\\20260510-112144-deepen-backward_select_drop_num_commercial.json",
+  "experiment": "experiments\\xgboost_v9\\runs\\20260510-112144-deepen-backward_select_drop_num_commercial\\experiment.py",
+  "stdout": "experiments\\xgboost_v9\\runs\\20260510-112144-deepen-backward_select_drop_num_commercial\\stdout.log",
+  "stderr": "experiments\\xgboost_v9\\runs\\20260510-112144-deepen-backward_select_drop_num_commercial\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_num_commercial",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

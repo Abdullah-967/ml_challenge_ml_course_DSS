@@ -1,0 +1,16 @@
+fold_0_mae: 43,454.1169 (83.48s)
+fold_1_mae: 44,117.5972 (81.55s)
+fold_2_mae: 49,749.0571 (79.89s)
+fold_3_mae: 48,849.5217 (79.99s)
+fold_4_mae: 53,822.1626 (83.22s)
+cv_mae: 47,998.491092
+cv_mae_std: 3,831.880958
+runtime_seconds: 408.43
+{
+  "cv_mae": 47998.49109195428,
+  "cv_mae_std": 3831.8809582546296,
+  "runtime_seconds": 408.43418770001153,
+  "splits": 5,
+  "seed": 2026,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v4\\runs\\20260508-003012-confirm-v2_plus_geo_hierarchy\\experiment.py"
+}

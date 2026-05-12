@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Tune iter10: target_enc smooth=5 (was 10)",
+  "params_summary": "single_knob=smooth5",
+  "seed": 42,
+  "run_id": "20260507-004448-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-004448",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "target_enc_smooth5",
+  "feature_group": "encoding",
+  "anchor_run_id": "20260507-004037-deepen-numeric_plus_basic_cats"
+}

@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_num_commercial",
+  "description": "Deepen iter7: backward selection drop=num_commercial.",
+  "params_summary": "deepen_iter7_drop_num_commercial",
+  "seed": 42,
+  "run_id": "20260510-112144-deepen-backward_select_drop_num_commercial",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-112144",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_num_commercial",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

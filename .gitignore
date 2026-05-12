@@ -12,3 +12,9 @@ venv/
 
 baseline/predicted.json
 baseline/predicted.zip
+experiments/*/predicted.json
+experiments/*/predicted.zip
+.notebooks/
+
+.claude/
+.agents/

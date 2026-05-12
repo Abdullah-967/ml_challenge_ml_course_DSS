@@ -1,0 +1,30 @@
+C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_array_api.py:757: RuntimeWarning: overflow encountered in cast
+  array = numpy.asarray(array, order=order, dtype=dtype)
+Traceback (most recent call last):
+  File "C:\Users\aldal\OneDrive - Tilburg University\DSS_Semester_1\block4\machine_learning\ml_challenge\ml_challenge_cursor\plugins\model-family-mae\scripts\eval_family.py", line 112, in <module>
+    main()
+  File "C:\Users\aldal\OneDrive - Tilburg University\DSS_Semester_1\block4\machine_learning\ml_challenge\ml_challenge_cursor\plugins\model-family-mae\scripts\eval_family.py", line 75, in main
+    cv_mae, cv_mae_std = evaluate(module, records, args.splits, args.seed)
+  File "C:\Users\aldal\OneDrive - Tilburg University\DSS_Semester_1\block4\machine_learning\ml_challenge\ml_challenge_cursor\plugins\model-family-mae\scripts\eval_family.py", line 33, in evaluate
+    predictions = normalize_predictions(module.fit_predict(train_split, validation_split))
+  File "C:\Users\aldal\OneDrive - Tilburg University\DSS_Semester_1\block4\machine_learning\ml_challenge\ml_challenge_cursor\experiments\gradient_boosting_sklearn\runs\20260509-195144-smoke-all_numeric\experiment.py", line 75, in fit_predict
+    model.fit(
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\pipeline.py", line 663, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\ensemble\_gb.py", line 658, in fit
+    X, y = validate_data(
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 2971, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1368, in check_X_y
+    X = check_array(
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1105, in check_array
+    _assert_all_finite(
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\aldal\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float32').

@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v8",
+  "stage": "smoke",
+  "feature_lane": "v7_plus_cadastral_counts",
+  "description": "Smoke laneA: extend numeric scope by adding 4 omitted cadastral counts (num_parcels, num_sections, num_communes, num_dependencies) on top of v7 promoted recipe. Single feature knob.",
+  "params_summary": "smoke_laneA_add_cadastral_counts",
+  "seed": 42,
+  "run_id": "20260509-214323-smoke-v7_plus_cadastral_counts",
+  "experiment_source": "experiments\\xgboost_v8\\variants\\lane_a_cadastral_counts.py",
+  "created_at": "20260509-214323",
+  "change_kind": "feature",
+  "hypothesis_unit": "structural_numeric_baseline",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260509-195253-deepen-v6_capacity_path"
+}

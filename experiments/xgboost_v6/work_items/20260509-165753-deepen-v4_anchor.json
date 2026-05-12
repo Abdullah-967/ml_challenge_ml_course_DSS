@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v6",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Deepen iter2: on top of iter1 (top15 per-type sub-models kept), increase n_estimators from 4000 to 5000 in both global and sub-models. v5's top10+n_est5000 step improved by ~69 MAE; repeating it on top15 may beat the raw global best.",
+  "params_summary": "deepen_iter2_top15_nest5000",
+  "seed": 42,
+  "run_id": "20260509-165753-deepen-v4_anchor",
+  "experiment_source": "experiments\\xgboost_v6\\current_experiment.py",
+  "created_at": "20260509-165753",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260509-161727-deepen-v4_anchor"
+}

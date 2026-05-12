@@ -1,0 +1,11 @@
+{
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "ablate c4: drop reg_lambda=2.0 (revert to 1.0)",
+  "params_summary": "ablate_c4=reg_lambda1",
+  "seed": 42,
+  "run_id": "20260506-232747-deepen-geo_signal",
+  "experiment_source": "experiments\\xgboost\\current_experiment.py",
+  "created_at": "20260506-232747"
+}

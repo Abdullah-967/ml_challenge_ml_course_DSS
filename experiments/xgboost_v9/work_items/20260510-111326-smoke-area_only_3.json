@@ -1,0 +1,14 @@
+{
+  "family": "xgboost_v9",
+  "stage": "smoke",
+  "feature_lane": "area_only_3",
+  "description": "Smoke iter2: XGBoost on pure-area triplet (built_area, land_area, house_area). Tests whether size dimensions alone carry signal vs Lane 1 (top-corr mixed counts+area).",
+  "params_summary": "smoke_iter2_area_only_3",
+  "seed": 42,
+  "run_id": "20260510-111326-smoke-area_only_3",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-111326",
+  "change_kind": "feature",
+  "hypothesis_unit": "area_only_triplet",
+  "feature_group": "structural_numeric"
+}

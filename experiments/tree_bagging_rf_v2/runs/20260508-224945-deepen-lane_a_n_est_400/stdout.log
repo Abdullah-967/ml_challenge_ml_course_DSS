@@ -1,0 +1,16 @@
+fold_0_mae: 49,066.9859 (91.44s)
+fold_1_mae: 51,971.0611 (87.59s)
+fold_2_mae: 42,938.7242 (86.55s)
+fold_3_mae: 57,791.7378 (86.45s)
+fold_4_mae: 51,535.0822 (86.36s)
+cv_mae: 50,660.718222
+cv_mae_std: 4,806.290154
+runtime_seconds: 439.68
+{
+  "cv_mae": 50660.718221578405,
+  "cv_mae_std": 4806.290153603561,
+  "runtime_seconds": 439.6818416000024,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\tree_bagging_rf_v2\\runs\\20260508-224945-deepen-lane_a_n_est_400\\experiment.py"
+}

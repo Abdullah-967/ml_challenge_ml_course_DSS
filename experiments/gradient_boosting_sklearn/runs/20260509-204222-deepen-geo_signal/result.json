@@ -1,0 +1,23 @@
+{
+  "run_id": "20260509-204222-deepen-geo_signal",
+  "family": "gradient_boosting_sklearn",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "Deepen iter7: smoothing-k 20 -> 5 on commune target encoding. Single preprocessing knob (smoothing constant). Same encoding strategy, fold-safety, and feature shape; only the k value changes.",
+  "params_summary": "GBR(loss=absolute_error,n_est=100,lr=0.1,max_depth=4,subsample=0.8),geo_signal,commune_te(k=5)",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 43.1082141000079,
+  "cv_mae": 54165.88359014675,
+  "cv_mae_std": 4705.712013168611,
+  "validation_mae": null,
+  "work_item": "experiments\\gradient_boosting_sklearn\\work_items\\20260509-204222-deepen-geo_signal.json",
+  "experiment": "experiments\\gradient_boosting_sklearn\\runs\\20260509-204222-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\gradient_boosting_sklearn\\runs\\20260509-204222-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\gradient_boosting_sklearn\\runs\\20260509-204222-deepen-geo_signal\\stderr.log",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "commune_te_smoothing_k5",
+  "feature_group": "geography",
+  "anchor_run_id": "20260509-202125-deepen-geo_signal"
+}
