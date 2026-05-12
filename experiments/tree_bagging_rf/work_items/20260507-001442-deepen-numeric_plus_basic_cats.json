@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Tune iter2: n_estimators=500 (was 200) -- more trees for better averaging. Will be slower.",
+  "params_summary": "single_knob=n_est500",
+  "seed": 42,
+  "run_id": "20260507-001442-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-001442",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_estimators_500",
+  "feature_group": "capacity",
+  "anchor_run_id": "20260507-001214-deepen-numeric_plus_basic_cats"
+}

@@ -1,0 +1,16 @@
+fold_0_mae: 48,977.8838 (96.56s)
+fold_1_mae: 51,899.9664 (92.83s)
+fold_2_mae: 42,975.4091 (96.03s)
+fold_3_mae: 57,738.6508 (92.94s)
+fold_4_mae: 51,316.7499 (89.96s)
+cv_mae: 50,581.732008
+cv_mae_std: 4,773.425564
+runtime_seconds: 469.69
+{
+  "cv_mae": 50581.7320080845,
+  "cv_mae_std": 4773.425564122345,
+  "runtime_seconds": 469.6930085000058,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\tree_bagging_rf_v2\\runs\\20260509-154227-deepen-lane_a_two_seed_avg\\experiment.py"
+}

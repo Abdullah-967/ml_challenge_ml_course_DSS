@@ -1,0 +1,10 @@
+{
+  "family": "xgboost_v11",
+  "active_stage": "smoke",
+  "created_at": "20260510-133954",
+  "stage_counts": {
+    "smoke": 3
+  },
+  "latest_run_id": "20260510-134805-smoke-shrunk_v6_anchor_n1000_plus_velocity",
+  "best_run_id": "20260510-134430-smoke-shrunk_v6_anchor_n1000"
+}

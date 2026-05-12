@@ -1,0 +1,16 @@
+fold_0_mae: 62,388.8814 (4.58s)
+fold_1_mae: 66,412.4743 (4.09s)
+fold_2_mae: 55,544.2550 (4.05s)
+fold_3_mae: 69,819.8535 (4.21s)
+fold_4_mae: 63,010.0946 (4.11s)
+cv_mae: 63,435.111768
+cv_mae_std: 4,757.530278
+runtime_seconds: 21.78
+{
+  "cv_mae": 63435.11176767679,
+  "cv_mae_std": 4757.530277543061,
+  "runtime_seconds": 21.780248099938035,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v9\\runs\\20260510-112736-deepen-keystone_pair_only\\experiment.py"
+}

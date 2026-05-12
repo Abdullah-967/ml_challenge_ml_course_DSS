@@ -1,0 +1,16 @@
+fold_0_mae: 48,281.3479 (284.87s)
+fold_1_mae: 47,667.0925 (249.25s)
+fold_2_mae: 41,101.2903 (247.32s)
+fold_3_mae: 56,350.2308 (250.42s)
+fold_4_mae: 49,060.8948 (252.70s)
+cv_mae: 48,492.171260
+cv_mae_std: 4,846.088503
+runtime_seconds: 1285.13
+{
+  "cv_mae": 48492.17125977142,
+  "cv_mae_std": 4846.088502606687,
+  "runtime_seconds": 1285.1306100999936,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v8\\runs\\20260510-004926-deepen-v8_drop_sparse_plus_cadastral\\experiment.py"
+}

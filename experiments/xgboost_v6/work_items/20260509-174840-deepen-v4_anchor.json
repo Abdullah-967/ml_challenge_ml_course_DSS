@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v6",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Stage 4 confirm seed=2026 of iter3 (top15 per-type sub-models + n_est=6000). Verify the new raw global best before promotion.",
+  "params_summary": "confirm_iter3_seed2026",
+  "seed": 2026,
+  "run_id": "20260509-174840-deepen-v4_anchor",
+  "experiment_source": "experiments\\xgboost_v6\\current_experiment.py",
+  "created_at": "20260509-174840",
+  "change_kind": "diagnostic",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260509-173002-deepen-v4_anchor"
+}

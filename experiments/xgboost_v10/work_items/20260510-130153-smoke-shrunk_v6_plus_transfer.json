@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v10",
+  "stage": "smoke",
+  "feature_lane": "shrunk_v6_plus_transfer",
+  "description": "Smoke iter3: same shrunk v6 anchor as Lane 2 + 4 transfer-mode features (n_transferred, n_parcels_kept, transfer_overlap_ratio, is_no_transfer). Single-knob feature addition. Compare to Lane 2 (48441.69) for incremental lift.",
+  "params_summary": "smoke_iter3_shrunk_v6_plus_transfer",
+  "seed": 42,
+  "run_id": "20260510-130153-smoke-shrunk_v6_plus_transfer",
+  "experiment_source": "experiments\\xgboost_v10\\current_experiment.py",
+  "created_at": "20260510-130153",
+  "change_kind": "feature",
+  "hypothesis_unit": "transfer_mode_features_added_to_anchor",
+  "feature_group": "id_derived",
+  "anchor_run_id": "20260510-125333-smoke-shrunk_v6_anchor"
+}

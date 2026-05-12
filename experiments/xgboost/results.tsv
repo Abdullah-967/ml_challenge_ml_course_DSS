@@ -1,0 +1,30 @@
+commit_or_run_id	stage	model_family	feature_lane	cv_mae	cv_mae_std	validation_mae	runtime_seconds	status	params_summary	description
+20260506-220015-smoke-all_numeric	smoke	xgboost	all_numeric	53600.062607	4575.502189		39.738771	keep	single_knob=all_numeric	smoke test for xgboost using all_numeric
+20260506-220906-smoke-numeric_plus_basic_cats	smoke	xgboost	numeric_plus_basic_cats	52771.658733	4871.868459		57.295558	keep	single_knob=numeric_plus_basic_cats	smoke test for xgboost adding low-cardinality categoricals via XGBoost native cat support
+20260506-221254-smoke-geo_signal	smoke	xgboost	geo_signal	51530.014090	5125.226150		38.719082	keep	single_knob=geo_signal	smoke test for xgboost adding commune_codes + cadastral_sections as native cats
+20260506-221828-deepen-geo_signal	deepen	xgboost	geo_signal	51667.251172	5086.716155		38.782027	keep	single_knob=log1p_target	deepen iter1: log1p target on geo_signal recipe
+20260506-222118-deepen-geo_signal	deepen	xgboost	geo_signal	51520.498553	5075.277584		41.165721	keep	single_knob=derived_ratios	deepen iter2: derived ratios on geo_signal recipe
+20260506-222345-deepen-geo_signal	deepen	xgboost	geo_signal	51548.833916	5089.913847		36.401246	keep	single_knob=presence_flags	deepen iter3: presence flags on geo+ratios
+20260506-222515-deepen-geo_signal	deepen	xgboost	geo_signal	51638.880230	4995.880754		47.527441	keep	single_knob=log_skewed_numerics	deepen iter4: log1p of skewed numerics on geo+ratios
+20260506-222709-deepen-geo_signal	deepen	xgboost	geo_signal	51386.022333	5087.123977		51.586957	keep	single_knob=date_ordinal	deepen iter5: transaction date ordinal
+20260506-222906-deepen-geo_signal	deepen	xgboost	geo_signal	51551.797297	4968.955082		36.073054	keep	single_knob=room_aggregates	deepen iter6: room count + area aggregates
+20260506-223101-deepen-geo_signal	deepen	xgboost	geo_signal	51471.746784	5093.853822		36.188519	keep	single_knob=avg_area_per_unit	deepen iter7: avg area per apt/house
+20260506-223309-deepen-geo_signal	deepen	xgboost	geo_signal	51665.098539	4856.254048		52.575619	keep	single_knob=commune_target_enc_smooth20	deepen iter8: fold-safe commune target encoding (smooth=20)
+20260506-223517-deepen-geo_signal	deepen	xgboost	geo_signal	51764.760432	4898.769151		32.899375	keep	single_knob=drop_per_room_cols	deepen iter9: drop sparse per-room/per-area columns
+20260506-223720-deepen-geo_signal	deepen	xgboost	geo_signal	50957.359509	5039.366873		40.643529	keep	single_knob=property_type_cat	deepen iter10: re-add property_type as third native cat
+20260506-224330-deepen-geo_signal	tune	xgboost	geo_signal	50991.889655	5083.452934		67.019524	keep	single_knob=lr025_nest1000	tune iter1: lr=0.025, n_est=1000
+20260506-224614-deepen-geo_signal	tune	xgboost	geo_signal	50242.195292	4836.676871		39.575687	keep	single_knob=max_depth5	tune iter2: max_depth=5
+20260506-224823-deepen-geo_signal	tune	xgboost	geo_signal	49685.496446	4670.674482		68.553421	keep	single_knob=max_depth6	tune iter3: max_depth=6
+20260506-225731-deepen-geo_signal	tune	xgboost	geo_signal	50082.479978	4496.452225		119.807056	keep	single_knob=mcw3	tune iter4: min_child_weight=3
+20260506-230036-deepen-geo_signal	tune	xgboost	geo_signal	49748.412888	4753.791471		63.958377	keep	single_knob=mcw10	tune iter5: min_child_weight=10
+20260506-230230-deepen-geo_signal	tune	xgboost	geo_signal	50066.922141	4858.944692		66.324466	keep	single_knob=subsample07	tune iter6: subsample=0.7
+20260506-230431-deepen-geo_signal	tune	xgboost	geo_signal	49679.530333	4784.962857		55.615657	keep	single_knob=subsample09	tune iter7: subsample=0.9
+20260506-230733-deepen-geo_signal	tune	xgboost	geo_signal	49632.105105	4686.837453		45.417294	keep	single_knob=colsample07	tune iter8: colsample_bytree=0.7
+20260506-230911-deepen-geo_signal	tune	xgboost	geo_signal	49546.396240	4706.334572		45.637674	keep	single_knob=reg_lambda2	tune iter9: reg_lambda=2.0
+20260506-231056-deepen-geo_signal	tune	xgboost	geo_signal	49603.606579	4466.794160		46.178331	keep	single_knob=reg_lambda4	tune iter10: reg_lambda=4.0
+20260506-232130-deepen-geo_signal	ablate	xgboost	geo_signal	50939.812378	5058.366401		37.568486	ablate	ablate_c1=max_depth4	ablate c1: drop max_depth=6 (revert to 4)
+20260506-232300-deepen-geo_signal	ablate	xgboost	geo_signal	49827.172865	4691.048786		45.974429	ablate	ablate_c2=subsample08	ablate c2: drop subsample=0.9 (revert to 0.8)
+20260506-232455-deepen-geo_signal	ablate	xgboost	geo_signal	49676.073831	4739.437728		45.413517	ablate	ablate_c3=colsample08	ablate c3: drop colsample=0.7 (revert to 0.8)
+20260506-232747-deepen-geo_signal	ablate	xgboost	geo_signal	49632.105105	4686.837453		45.311109	ablate	ablate_c4=reg_lambda1	ablate c4: drop reg_lambda=2.0 (revert to 1.0)
+20260506-233001-deepen-geo_signal	confirm	xgboost	geo_signal	49827.484376	4929.998399		43.694061	confirm	confirm_seed2026	confirm seed=2026: promoted recipe (max_depth=6 only)
+20260512-105219-deepen-geo_signal_plus_transaction_type	deepen	xgboost	geo_signal_plus_transaction_type	49486.344377	4818.053409		51.525845	keep	single_knob=transaction_type_cat	New xgboost round: add transaction_type as a single native categorical feature on top of the promoted geo_signal recipe.

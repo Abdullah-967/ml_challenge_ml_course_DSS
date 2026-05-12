@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_num_lots",
+  "description": "Deepen iter6: backward selection drop=num_lots.",
+  "params_summary": "deepen_iter6_drop_num_lots",
+  "seed": 42,
+  "run_id": "20260510-112058-deepen-backward_select_drop_num_lots",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-112058",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_num_lots",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

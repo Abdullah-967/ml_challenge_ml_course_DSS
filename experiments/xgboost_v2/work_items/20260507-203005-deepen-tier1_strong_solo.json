@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v2",
+  "stage": "deepen",
+  "feature_lane": "tier1_strong_solo",
+  "description": "Stage 3 tune iter2: max_depth=4 (was 6); shallower.",
+  "params_summary": "single_knob=max_depth_4",
+  "seed": 42,
+  "run_id": "20260507-203005-deepen-tier1_strong_solo",
+  "experiment_source": "experiments\\xgboost_v2\\current_experiment.py",
+  "created_at": "20260507-203005",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "max_depth 6 -> 4",
+  "feature_group": "hyperparam",
+  "anchor_run_id": "20260507-202310-deepen-tier1_strong_solo"
+}

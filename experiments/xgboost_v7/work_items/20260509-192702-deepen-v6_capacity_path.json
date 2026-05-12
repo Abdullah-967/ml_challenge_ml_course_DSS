@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v7",
+  "stage": "deepen",
+  "feature_lane": "v6_capacity_path",
+  "description": "Deepen iter1: after wide smoke selected the capacity lane, increase n_estimators from 7000 to 8000 in both global and top15 sub-models. Tests whether the v6/v7 capacity curve still has headroom before confirmation.",
+  "params_summary": "deepen_iter1_nest8000",
+  "seed": 42,
+  "run_id": "20260509-192702-deepen-v6_capacity_path",
+  "experiment_source": "experiments\\xgboost_v7\\current_experiment.py",
+  "created_at": "20260509-192702",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260509-190305-smoke-v6_nest7000"
+}

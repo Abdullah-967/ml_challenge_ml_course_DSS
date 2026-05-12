@@ -1,0 +1,22 @@
+{
+  "run_id": "20260507-003626-deepen-numeric_plus_basic_cats",
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Tune iter8: max_features=0.4 (was 0.5)",
+  "params_summary": "single_knob=mf0.4",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 208.90919220000796,
+  "cv_mae": 51096.09939581265,
+  "cv_mae_std": 4727.8442159750775,
+  "work_item": "experiments\\tree_bagging_rf\\work_items\\20260507-003626-deepen-numeric_plus_basic_cats.json",
+  "experiment": "experiments\\tree_bagging_rf\\runs\\20260507-003626-deepen-numeric_plus_basic_cats\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf\\runs\\20260507-003626-deepen-numeric_plus_basic_cats\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf\\runs\\20260507-003626-deepen-numeric_plus_basic_cats\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "max_features_0_4",
+  "feature_group": "capacity",
+  "anchor_run_id": "20260507-003114-deepen-numeric_plus_basic_cats"
+}

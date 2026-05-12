@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-202514-deepen-tier1_strong_solo",
+  "family": "xgboost_v2",
+  "stage": "deepen",
+  "feature_lane": "tier1_strong_solo",
+  "description": "Deepen iter10: + commune_first_target_enc (smoothed mean, smooth=20). Encoder fit on train fold; applied to val. commune_first kept as native cat too.",
+  "params_summary": "single_knob=add_commune_te20",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 70.26929830000154,
+  "cv_mae": 49424.33894356108,
+  "cv_mae_std": 4721.35709050553,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v2\\work_items\\20260507-202514-deepen-tier1_strong_solo.json",
+  "experiment": "experiments\\xgboost_v2\\runs\\20260507-202514-deepen-tier1_strong_solo\\experiment.py",
+  "stdout": "experiments\\xgboost_v2\\runs\\20260507-202514-deepen-tier1_strong_solo\\stdout.log",
+  "stderr": "experiments\\xgboost_v2\\runs\\20260507-202514-deepen-tier1_strong_solo\\stderr.log",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "add commune_first smoothed target encoding (smooth=20)",
+  "feature_group": "encoded",
+  "anchor_run_id": "20260507-202310-deepen-tier1_strong_solo"
+}

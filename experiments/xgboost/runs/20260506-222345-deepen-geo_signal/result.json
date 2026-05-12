@@ -1,0 +1,18 @@
+{
+  "run_id": "20260506-222345-deepen-geo_signal",
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "deepen iter3: presence flags on geo+ratios",
+  "params_summary": "single_knob=presence_flags",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 36.40124580000702,
+  "cv_mae": 51548.83391566288,
+  "cv_mae_std": 5089.913847107262,
+  "work_item": "experiments\\xgboost\\work_items\\20260506-222345-deepen-geo_signal.json",
+  "experiment": "experiments\\xgboost\\runs\\20260506-222345-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\xgboost\\runs\\20260506-222345-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\xgboost\\runs\\20260506-222345-deepen-geo_signal\\stderr.log"
+}

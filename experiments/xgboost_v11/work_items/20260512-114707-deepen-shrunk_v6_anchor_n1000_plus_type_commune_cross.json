@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v11",
+  "stage": "deepen",
+  "feature_lane": "shrunk_v6_anchor_n1000_plus_type_commune_cross",
+  "description": "v11 reboot smoke (axis E, post-park): on top of shrunk v6 anchor (n_est=1000, family-best 48772.08), add a property_type x commune_first interaction feature (paired categorical / cross encoding). Hypothesis: price-per-type varies sharply by commune and an explicit cross may shortcut what the booster infers across many trees. Strip the parked velocity features. Single-knob feature addition vs the bare shrunk anchor.",
+  "params_summary": "single_knob=property_type_commune_cross",
+  "seed": 42,
+  "run_id": "20260512-114707-deepen-shrunk_v6_anchor_n1000_plus_type_commune_cross",
+  "experiment_source": "experiments\\xgboost_v11\\current_experiment.py",
+  "created_at": "20260512-114707",
+  "change_kind": "feature",
+  "hypothesis_unit": "property_type_commune_interaction",
+  "feature_group": "geography",
+  "anchor_run_id": "20260510-134430-smoke-shrunk_v6_anchor_n1000"
+}

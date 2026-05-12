@@ -1,0 +1,16 @@
+fold_0_mae: 47,397.3982 (30.42s)
+fold_1_mae: 50,043.1653 (29.50s)
+fold_2_mae: 41,071.7534 (30.12s)
+fold_3_mae: 56,117.1132 (29.77s)
+fold_4_mae: 49,230.9723 (30.51s)
+cv_mae: 48,772.080477
+cv_mae_std: 4,836.538702
+runtime_seconds: 150.91
+{
+  "cv_mae": 48772.080477082185,
+  "cv_mae_std": 4836.538701790976,
+  "runtime_seconds": 150.90576420002617,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v11\\runs\\20260510-134430-smoke-shrunk_v6_anchor_n1000\\experiment.py"
+}

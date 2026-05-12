@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-231946-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter26: sub-models trained with max_depth=4 (vs global's 6). Smaller per-type datasets benefit from more regularization.",
+  "params_summary": "deepen_iter26_submodel_depth4",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 76.76542839998729,
+  "cv_mae": 48620.86017716143,
+  "cv_mae_std": 5051.862655140313,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260507-231946-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260507-231946-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260507-231946-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260507-231946-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "submodel_depth_4",
+  "feature_group": "model_specialization",
+  "anchor_run_id": "20260507-231709-deepen-v2_plus_geo_hierarchy"
+}

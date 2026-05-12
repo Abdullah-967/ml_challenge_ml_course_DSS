@@ -1,0 +1,16 @@
+fold_0_mae: 49,414.0842 (46.41s)
+fold_1_mae: 52,436.6528 (45.86s)
+fold_2_mae: 43,113.3727 (44.55s)
+fold_3_mae: 57,789.2250 (44.55s)
+fold_4_mae: 51,956.1278 (45.63s)
+cv_mae: 50,941.892490
+cv_mae_std: 4,770.091493
+runtime_seconds: 228.31
+{
+  "cv_mae": 50941.89248977143,
+  "cv_mae_std": 4770.09149264999,
+  "runtime_seconds": 228.3066675000009,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\tree_bagging_rf_v2\\runs\\20260508-223520-deepen-lane_a_plus_built_per_land\\experiment.py"
+}

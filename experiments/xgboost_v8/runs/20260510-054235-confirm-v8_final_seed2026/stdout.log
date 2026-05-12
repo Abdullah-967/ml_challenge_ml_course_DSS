@@ -1,0 +1,16 @@
+fold_0_mae: 43,509.1438 (290.47s)
+fold_1_mae: 44,391.0804 (258.76s)
+fold_2_mae: 50,511.7093 (256.19s)
+fold_3_mae: 49,542.2857 (269.81s)
+fold_4_mae: 49,306.1644 (257.04s)
+cv_mae: 47,452.076729
+cv_mae_std: 2,901.185437
+runtime_seconds: 1332.92
+{
+  "cv_mae": 47452.07672866694,
+  "cv_mae_std": 2901.185437298874,
+  "runtime_seconds": 1332.9196818000637,
+  "splits": 5,
+  "seed": 2026,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v8\\runs\\20260510-054235-confirm-v8_final_seed2026\\experiment.py"
+}

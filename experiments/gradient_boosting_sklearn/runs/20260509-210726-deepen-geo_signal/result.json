@@ -1,0 +1,23 @@
+{
+  "run_id": "20260509-210726-deepen-geo_signal",
+  "family": "gradient_boosting_sklearn",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "Deepen iter14: n_estimators 200 -> 300 chained on iter13 (n_est=200 mean+std win). Single hyperparameter knob. Hypothesis: if 200 trees lifted both mean and std, 300 may keep paying before overfitting; observe std as the key diagnostic.",
+  "params_summary": "GBR(loss=absolute_error,n_est=300,lr=0.1,max_depth=4,subsample=0.8),geo_signal,commune_te(k=20)",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 159.25857090007048,
+  "cv_mae": 53435.837618620484,
+  "cv_mae_std": 3768.284308942227,
+  "validation_mae": null,
+  "work_item": "experiments\\gradient_boosting_sklearn\\work_items\\20260509-210726-deepen-geo_signal.json",
+  "experiment": "experiments\\gradient_boosting_sklearn\\runs\\20260509-210726-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\gradient_boosting_sklearn\\runs\\20260509-210726-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\gradient_boosting_sklearn\\runs\\20260509-210726-deepen-geo_signal\\stderr.log",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_estimators_300",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260509-210426-deepen-geo_signal"
+}

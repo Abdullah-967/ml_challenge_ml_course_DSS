@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v3",
+  "stage": "deepen",
+  "feature_lane": "baseline_three_only",
+  "description": "Deepen iter3: clip y_train at 99.5th percentile during fit (cap extreme outliers); MAE eval still uses raw y. Tail outliers may be hurting MAE in feature-starved 3-feature regime.",
+  "params_summary": "deepen_iter3_target_clip_99p5",
+  "seed": 42,
+  "run_id": "20260507-212614-deepen-baseline_three_only",
+  "experiment_source": "experiments\\xgboost_v3\\current_experiment.py",
+  "created_at": "20260507-212614",
+  "change_kind": "target",
+  "hypothesis_unit": "target_clip_99p5",
+  "feature_group": "target_transform",
+  "anchor_run_id": "20260507-211730-smoke-baseline_three_only"
+}

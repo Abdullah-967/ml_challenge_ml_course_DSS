@@ -1,0 +1,16 @@
+fold_0_mae: 58,472.6709 (5.10s)
+fold_1_mae: 60,975.5170 (4.54s)
+fold_2_mae: 50,789.7335 (4.44s)
+fold_3_mae: 64,548.5426 (4.63s)
+fold_4_mae: 58,180.4845 (4.41s)
+cv_mae: 58,593.389697
+cv_mae_std: 4,521.515025
+runtime_seconds: 23.85
+{
+  "cv_mae": 58593.389696704515,
+  "cv_mae_std": 4521.515025328495,
+  "runtime_seconds": 23.84642410010565,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v9\\runs\\20260510-112229-deepen-backward_select_drop_num_apt_2_rooms\\experiment.py"
+}

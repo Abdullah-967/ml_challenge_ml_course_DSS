@@ -1,0 +1,15 @@
+{
+  "family": "gradient_boosting_sklearn",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "Deepen iter8: apply log1p to skewed area columns (land_area, built_area, house_area, apartment_area, all 10 area_apt_*_rooms / area_house_*_rooms). Single hypothesis_unit (log_skewed_numerics). Single preprocessing knob anchored on iter3. Hypothesis: tree splits on raw areas waste capacity on the long tail; log compression should make split thresholds carry more rows.",
+  "params_summary": "GBR(loss=absolute_error,n_est=100,lr=0.1,max_depth=4,subsample=0.8),geo_signal,commune_te(k=20),log1p_areas",
+  "seed": 42,
+  "run_id": "20260509-204456-deepen-geo_signal",
+  "experiment_source": "experiments\\gradient_boosting_sklearn\\current_experiment.py",
+  "created_at": "20260509-204456",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "log_skewed_numerics",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260509-202125-deepen-geo_signal"
+}

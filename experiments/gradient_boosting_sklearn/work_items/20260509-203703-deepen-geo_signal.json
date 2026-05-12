@@ -1,0 +1,15 @@
+{
+  "family": "gradient_boosting_sklearn",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "Deepen iter5: anchor on iter3 (max_depth=4 family best). Add second fold-safe smoothed mean-target encoding column for cadastral_sections (846 unique, long-tail with 79% having <5 records). Single-knob: feature scope (+1 column). Same smoothing rule k=20. Hypothesis: section captures within-commune variation; smoothing handles the long tail.",
+  "params_summary": "GBR(loss=absolute_error,n_est=100,lr=0.1,max_depth=4,subsample=0.8),geo_signal,commune_te(k=20)+cadastral_te(k=20)",
+  "seed": 42,
+  "run_id": "20260509-203703-deepen-geo_signal",
+  "experiment_source": "experiments\\gradient_boosting_sklearn\\current_experiment.py",
+  "created_at": "20260509-203703",
+  "change_kind": "feature",
+  "hypothesis_unit": "cadastral_target_encoding",
+  "feature_group": "geography",
+  "anchor_run_id": "20260509-202125-deepen-geo_signal"
+}

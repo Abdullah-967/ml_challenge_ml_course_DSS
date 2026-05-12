@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v8",
+  "stage": "deepen",
+  "feature_lane": "v8_month_cyclical",
+  "description": "Deepen iter9: anchored on iter7 (family-best). ADD sin_month and cos_month cyclical encoding. Single feature knob.",
+  "params_summary": "deepen_iter9_month_cyclical",
+  "seed": 42,
+  "run_id": "20260510-024610-deepen-v8_month_cyclical",
+  "experiment_source": "experiments\\xgboost_v8\\variants\\deepen_iter9_month_cyclical.py",
+  "created_at": "20260510-024610",
+  "change_kind": "feature",
+  "hypothesis_unit": "month_cyclical",
+  "feature_group": "date_time",
+  "anchor_run_id": "20260510-015847-deepen-v8_presence_flags"
+}

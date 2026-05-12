@@ -1,0 +1,16 @@
+fold_0_mae: 47,821.6890 (297.43s)
+fold_1_mae: 48,491.6186 (277.06s)
+fold_2_mae: 40,635.7248 (266.52s)
+fold_3_mae: 56,610.3973 (265.07s)
+fold_4_mae: 49,189.7032 (270.53s)
+cv_mae: 48,549.826585
+cv_mae_std: 5,070.479724
+runtime_seconds: 1377.10
+{
+  "cv_mae": 48549.826584925766,
+  "cv_mae_std": 5070.479723870751,
+  "runtime_seconds": 1377.104312999989,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v8\\runs\\20260510-024610-deepen-v8_month_cyclical\\experiment.py"
+}

@@ -1,0 +1,22 @@
+{
+  "run_id": "20260510-134430-smoke-shrunk_v6_anchor_n1000",
+  "family": "xgboost_v11",
+  "stage": "smoke",
+  "feature_lane": "shrunk_v6_anchor_n1000",
+  "description": "Smoke iter2: re-establish v6 anchor at n_est=1000 (no velocity features) as v11 family baseline. Lane 3 will add velocity for lift measurement.",
+  "params_summary": "smoke_iter2_shrunk_v6_anchor_n1000",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 150.90576420002617,
+  "cv_mae": 48772.080477082185,
+  "cv_mae_std": 4836.538701790976,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v11\\work_items\\20260510-134430-smoke-shrunk_v6_anchor_n1000.json",
+  "experiment": "experiments\\xgboost_v11\\runs\\20260510-134430-smoke-shrunk_v6_anchor_n1000\\experiment.py",
+  "stdout": "experiments\\xgboost_v11\\runs\\20260510-134430-smoke-shrunk_v6_anchor_n1000\\stdout.log",
+  "stderr": "experiments\\xgboost_v11\\runs\\20260510-134430-smoke-shrunk_v6_anchor_n1000\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "anchor_no_velocity",
+  "feature_group": "structural_numeric"
+}

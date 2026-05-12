@@ -1,0 +1,21 @@
+{
+  "run_id": "20260506-235058-smoke-all_numeric",
+  "family": "tree_bagging_rf",
+  "stage": "smoke",
+  "feature_lane": "all_numeric",
+  "description": "Stage 1 smoke iter1: RandomForestRegressor(n_est=200,max_depth=18,mls=2,max_features=sqrt) on all_numeric lane (excl parcel_ids/transferred_parcel_ids). Fair anchor vs xgboost smoke iter1 (53600.06) and HGB iter1 (70431.74).",
+  "params_summary": "single_knob=all_numeric",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 17.876190599999973,
+  "cv_mae": 61056.896543641415,
+  "cv_mae_std": 3650.7592905866345,
+  "work_item": "experiments\\tree_bagging_rf\\work_items\\20260506-235058-smoke-all_numeric.json",
+  "experiment": "experiments\\tree_bagging_rf\\runs\\20260506-235058-smoke-all_numeric\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf\\runs\\20260506-235058-smoke-all_numeric\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf\\runs\\20260506-235058-smoke-all_numeric\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "structural_numeric_baseline",
+  "feature_group": "structural_numeric"
+}

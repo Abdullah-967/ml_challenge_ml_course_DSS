@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_year",
+  "description": "Deepen iter10: backward selection drop=year.",
+  "params_summary": "deepen_iter10_drop_year",
+  "seed": 42,
+  "run_id": "20260510-112409-deepen-backward_select_drop_year",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-112409",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_year",
+  "feature_group": "date_time",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

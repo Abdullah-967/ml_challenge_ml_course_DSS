@@ -1,0 +1,11 @@
+{
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "tune iter8: colsample_bytree=0.7",
+  "params_summary": "single_knob=colsample07",
+  "seed": 42,
+  "run_id": "20260506-230733-deepen-geo_signal",
+  "experiment_source": "experiments\\xgboost\\current_experiment.py",
+  "created_at": "20260506-230733"
+}

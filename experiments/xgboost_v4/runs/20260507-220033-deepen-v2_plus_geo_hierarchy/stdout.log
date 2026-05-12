@@ -1,0 +1,16 @@
+fold_0_mae: 48,014.1983 (7.67s)
+fold_1_mae: 50,854.0633 (7.60s)
+fold_2_mae: 41,799.2458 (7.51s)
+fold_3_mae: 56,635.6278 (7.50s)
+fold_4_mae: 49,471.5337 (8.72s)
+cv_mae: 49,354.933769
+cv_mae_std: 4,778.189698
+runtime_seconds: 39.83
+{
+  "cv_mae": 49354.93376944717,
+  "cv_mae_std": 4778.189697728564,
+  "runtime_seconds": 39.831907999992836,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\abdul\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v4\\runs\\20260507-220033-deepen-v2_plus_geo_hierarchy\\experiment.py"
+}

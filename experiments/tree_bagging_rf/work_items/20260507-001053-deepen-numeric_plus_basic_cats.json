@@ -1,0 +1,15 @@
+{
+  "family": "tree_bagging_rf",
+  "stage": "deepen",
+  "feature_lane": "numeric_plus_basic_cats",
+  "description": "Deepen iter10: drop OHE cats; rely solely on target_enc + presence_flags for cat signal (simplification test)",
+  "params_summary": "single_knob=drop_ohe",
+  "seed": 42,
+  "run_id": "20260507-001053-deepen-numeric_plus_basic_cats",
+  "experiment_source": "experiments\\tree_bagging_rf\\current_experiment.py",
+  "created_at": "20260507-001053",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "drop_ohe_cats",
+  "feature_group": "property_transaction",
+  "anchor_run_id": "20260507-000930-deepen-numeric_plus_basic_cats"
+}

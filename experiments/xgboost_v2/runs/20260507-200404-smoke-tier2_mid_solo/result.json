@@ -1,0 +1,21 @@
+{
+  "run_id": "20260507-200404-smoke-tier2_mid_solo",
+  "family": "xgboost_v2",
+  "stage": "smoke",
+  "feature_lane": "tier2_mid_solo",
+  "description": "Stage 1 smoke iter2: 4 cols with mid-tier solo signal (single-col CV MAE improvement 0-1400 vs median baseline 92674). Disjoint from tier1.",
+  "params_summary": "single_knob=tier2_mid_solo",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 38.77326170000015,
+  "cv_mae": 70155.7805882796,
+  "cv_mae_std": 5476.890916661445,
+  "work_item": "experiments\\xgboost_v2\\work_items\\20260507-200404-smoke-tier2_mid_solo.json",
+  "experiment": "experiments\\xgboost_v2\\runs\\20260507-200404-smoke-tier2_mid_solo\\experiment.py",
+  "stdout": "experiments\\xgboost_v2\\runs\\20260507-200404-smoke-tier2_mid_solo\\stdout.log",
+  "stderr": "experiments\\xgboost_v2\\runs\\20260507-200404-smoke-tier2_mid_solo\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "tier2_mid_solo: num_houses + apartment_area + num_house_5plus_rooms + num_premises",
+  "feature_group": "raw"
+}

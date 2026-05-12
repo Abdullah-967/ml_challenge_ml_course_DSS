@@ -1,0 +1,13 @@
+{
+  "family": "tree_bagging_rf_v2",
+  "active_stage": "park",
+  "created_at": "20260508-221748",
+  "stage_counts": {
+    "smoke": 3,
+    "deepen": 13,
+    "confirm": 1
+  },
+  "latest_run_id": "20260509-155212-deepen-v1_anchor_plus_built_rel_type",
+  "best_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type",
+  "park_reason": "2-seed mean 50733.10 ties HGB iter21 50934.78 within pooled noise (Delta=-202, threshold ~1165). Promotion blocked. Recommend pivot to xgboost_v4 (47998 confirm seed=2026, -2937 vs HGB, well past noise threshold)."
+}

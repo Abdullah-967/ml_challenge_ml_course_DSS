@@ -1,0 +1,14 @@
+{
+  "family": "xgboost_v11",
+  "stage": "smoke",
+  "feature_lane": "velocity_only_4",
+  "description": "Smoke iter1 (signal isolation): XGBoost on 4 fold-safe commune-time velocity features (n_txns_prev_60d/180d, avg_built_area_prev_60d, days_since_last_txn). Tests whether commune-time density predicts in isolation. History built from training fold only; lookup strictly less-than row's own date.",
+  "params_summary": "smoke_iter1_velocity_only_4",
+  "seed": 42,
+  "run_id": "20260510-134221-smoke-velocity_only_4",
+  "experiment_source": "experiments\\xgboost_v11\\current_experiment.py",
+  "created_at": "20260510-134221",
+  "change_kind": "feature",
+  "hypothesis_unit": "commune_time_velocity",
+  "feature_group": "date_time"
+}

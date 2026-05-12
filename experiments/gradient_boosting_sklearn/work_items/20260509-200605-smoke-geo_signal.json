@@ -1,0 +1,15 @@
+{
+  "family": "gradient_boosting_sklearn",
+  "stage": "smoke",
+  "feature_lane": "geo_signal",
+  "description": "Smoke lane C: lane-A anchor plus one fold-safe smoothed mean-target encoding of commune_codes (~196 unique). Encoding fit only on each fold's training split (k=20 smoothing toward global train mean, global fallback for unseen communes). Single-knob: feature scope only; model hyperparameters unchanged.",
+  "params_summary": "GBR(loss=absolute_error,n_est=100,lr=0.1,max_depth=3,subsample=0.8),geo_signal,commune_te(k=20)",
+  "seed": 42,
+  "run_id": "20260509-200605-smoke-geo_signal",
+  "experiment_source": "experiments\\gradient_boosting_sklearn\\current_experiment.py",
+  "created_at": "20260509-200605",
+  "change_kind": "feature",
+  "hypothesis_unit": "commune_target_encoding",
+  "feature_group": "geography",
+  "anchor_run_id": "20260509-195547-smoke-all_numeric"
+}

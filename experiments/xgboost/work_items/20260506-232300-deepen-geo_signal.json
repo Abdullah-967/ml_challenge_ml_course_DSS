@@ -1,0 +1,11 @@
+{
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "ablate c2: drop subsample=0.9 (revert to 0.8)",
+  "params_summary": "ablate_c2=subsample08",
+  "seed": 42,
+  "run_id": "20260506-232300-deepen-geo_signal",
+  "experiment_source": "experiments\\xgboost\\current_experiment.py",
+  "created_at": "20260506-232300"
+}

@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v6",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Deepen iter3: on top of iter2 (top15+n_est5000), increase n_estimators from 5000 to 6000 in both global and sub-models. Tests whether the capacity ramp still has headroom after the new raw-best iter2.",
+  "params_summary": "deepen_iter3_top15_nest6000",
+  "seed": 42,
+  "run_id": "20260509-173002-deepen-v4_anchor",
+  "experiment_source": "experiments\\xgboost_v6\\current_experiment.py",
+  "created_at": "20260509-173002",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260509-165753-deepen-v4_anchor"
+}

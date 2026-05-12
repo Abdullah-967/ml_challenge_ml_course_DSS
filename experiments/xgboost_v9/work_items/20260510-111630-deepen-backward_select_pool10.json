@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_pool10",
+  "description": "Deepen iter1: anchor for backward selection. 10-feature pool selected via mfm analyze (top non-redundant target correlations + redundancy-group reps). Subsequent iters drop one feature each (one-knob).",
+  "params_summary": "deepen_iter1_anchor_pool10",
+  "seed": 42,
+  "run_id": "20260510-111630-deepen-backward_select_pool10",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-111630",
+  "change_kind": "feature",
+  "hypothesis_unit": "backward_selection_pool10",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111326-smoke-area_only_3"
+}

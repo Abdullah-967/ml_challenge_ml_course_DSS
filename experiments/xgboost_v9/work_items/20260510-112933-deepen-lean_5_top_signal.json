@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "lean_5_top_signal",
+  "description": "Deepen iter15 (multi_change): lean_5 = essentials + top signal (built_area, land_area, house_area, num_lots, num_commercial). After lean_7 ties anchor, push to find floor by dropping num_house_2_rooms + year on top of lean_7's drops. If lean_5 ties, the 5-feature minimal is the recipe to confirm.",
+  "params_summary": "deepen_iter15_lean_5_multi_change",
+  "seed": 42,
+  "run_id": "20260510-112933-deepen-lean_5_top_signal",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-112933",
+  "change_kind": "feature",
+  "hypothesis_unit": "lean_5_subset",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

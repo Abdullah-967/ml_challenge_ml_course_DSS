@@ -1,0 +1,15 @@
+{
+  "family": "gradient_boosting_sklearn",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "Deepen iter2: mechanically paired capacity bump n_estimators=300 + learning_rate=0.05 (counted as one knob; doubles step budget then halves step size to keep total ~ comparable). Anchored on smoke geo_signal (raw target restored after iter1 log1p tie). Single-knob (capacity pair). Hypothesis: n_est=100 underfits 27k rows; more boosting stages with smaller step should improve fit without overfitting given subsample=0.8 stochasticity.",
+  "params_summary": "GBR(loss=absolute_error,n_est=300,lr=0.05,max_depth=3,subsample=0.8),geo_signal,commune_te(k=20)",
+  "seed": 42,
+  "run_id": "20260509-201610-deepen-geo_signal",
+  "experiment_source": "experiments\\gradient_boosting_sklearn\\current_experiment.py",
+  "created_at": "20260509-201610",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "n_est_lr_capacity_pair",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260509-200605-smoke-geo_signal"
+}

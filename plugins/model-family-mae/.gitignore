@@ -1,0 +1,4 @@
+.test-tmp/
+.test-manual/
+__pycache__/
+*.pyc

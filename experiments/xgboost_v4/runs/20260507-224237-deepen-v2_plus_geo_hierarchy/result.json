@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-224237-deepen-v2_plus_geo_hierarchy",
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter19: stack Ridge regression on XGB residuals. Captures linear patterns the boosted trees miss.",
+  "params_summary": "deepen_iter19_ridge_residual",
+  "seed": 42,
+  "status": "timeout",
+  "returncode": null,
+  "runtime_seconds": 864.6259515999991,
+  "cv_mae": 88130.68012469506,
+  "cv_mae_std": 6568.899177801657,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v4\\work_items\\20260507-224237-deepen-v2_plus_geo_hierarchy.json",
+  "experiment": "experiments\\xgboost_v4\\runs\\20260507-224237-deepen-v2_plus_geo_hierarchy\\experiment.py",
+  "stdout": "experiments\\xgboost_v4\\runs\\20260507-224237-deepen-v2_plus_geo_hierarchy\\stdout.log",
+  "stderr": "experiments\\xgboost_v4\\runs\\20260507-224237-deepen-v2_plus_geo_hierarchy\\stderr.log",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "ridge_residual_stack",
+  "feature_group": "stacking",
+  "anchor_run_id": "20260507-220558-deepen-v2_plus_geo_hierarchy"
+}

@@ -1,0 +1,14 @@
+{
+  "family": "xgboost",
+  "active_stage": "deepen",
+  "created_at": "20260506-220006",
+  "stage_counts": {
+    "smoke": 3,
+    "deepen": 11,
+    "tune": 10,
+    "ablate": 4,
+    "confirm": 1
+  },
+  "latest_run_id": "20260512-105219-deepen-geo_signal_plus_transaction_type",
+  "best_run_id": "20260512-105219-deepen-geo_signal_plus_transaction_type"
+}

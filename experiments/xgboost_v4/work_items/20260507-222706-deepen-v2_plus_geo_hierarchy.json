@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter16 (tune): lr=0.03 + n_est=1000. Slower learning, more iterations may extract more signal from current feature set.",
+  "params_summary": "deepen_iter16_lr03_nest1000",
+  "seed": 42,
+  "run_id": "20260507-222706-deepen-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-222706",
+  "change_kind": "capacity_pair",
+  "hypothesis_unit": "lr03_nest1000",
+  "feature_group": "model_capacity",
+  "anchor_run_id": "20260507-220558-deepen-v2_plus_geo_hierarchy"
+}

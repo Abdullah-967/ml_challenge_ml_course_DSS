@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v5",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Deepen iter8: blend v4 anchor predictions 50/50 with HistGradientBoostingRegressor(absolute_error). Tests cross-family model diversity -- HGB and XGB have different histogramming and split criteria. v4 iter18 heterogeneous-XGB ensemble failed at n_est=500; this is cross-family blend at v4 capacity.",
+  "params_summary": "deepen_iter8_hgb_blend50",
+  "seed": 42,
+  "run_id": "20260508-152527-deepen-v4_anchor",
+  "experiment_source": "experiments\\xgboost_v5\\current_experiment.py",
+  "created_at": "20260508-152527",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260507-235645-deepen-v2_plus_geo_hierarchy"
+}

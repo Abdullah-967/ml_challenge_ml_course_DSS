@@ -1,0 +1,14 @@
+{
+  "family": "xgboost_v4",
+  "stage": "smoke",
+  "feature_lane": "v2_plus_temporal_cats",
+  "description": "Smoke Lane B: v2 base + year (native cat) + month (native cat) + future_sale (numeric). Tests temporal granularity beyond date_ordinal.",
+  "params_summary": "smoke_laneB_temporal_cats",
+  "seed": 42,
+  "run_id": "20260507-215422-smoke-v2_plus_temporal_cats",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-215422",
+  "change_kind": "feature",
+  "hypothesis_unit": "year_month_future_sale",
+  "feature_group": "temporal"
+}

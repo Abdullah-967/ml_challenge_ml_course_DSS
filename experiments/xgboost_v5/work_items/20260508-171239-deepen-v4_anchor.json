@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v5",
+  "stage": "deepen",
+  "feature_lane": "v4_anchor",
+  "description": "Deepen iter13: ON TOP OF iter10 (top10 + n_est=5000), test subsample 0.8 -> 0.7 (single knob). Untested in xgboost_v4 chain. Lower subsample = more variance per tree = potentially better generalization in saturated capacity regime.",
+  "params_summary": "deepen_iter13_subsample07",
+  "seed": 42,
+  "run_id": "20260508-171239-deepen-v4_anchor",
+  "experiment_source": "experiments\\xgboost_v5\\current_experiment.py",
+  "created_at": "20260508-171239",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "n_a",
+  "feature_group": "n_a",
+  "anchor_run_id": "20260508-160016-deepen-v4_anchor"
+}

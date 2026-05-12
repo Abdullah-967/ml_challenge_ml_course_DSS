@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter18: 5-model heterogeneous ensemble averaging (vary max_depth, lr, subsample). Greater diversity than seed averaging.",
+  "params_summary": "deepen_iter18_hetero_ensemble_5",
+  "seed": 42,
+  "run_id": "20260507-223141-deepen-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-223141",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "heterogeneous_ensemble_5",
+  "feature_group": "ensemble",
+  "anchor_run_id": "20260507-220558-deepen-v2_plus_geo_hierarchy"
+}

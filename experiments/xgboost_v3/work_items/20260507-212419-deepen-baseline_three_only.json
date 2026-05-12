@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v3",
+  "stage": "deepen",
+  "feature_lane": "baseline_three_only",
+  "description": "Deepen iter2: monotone_constraints={built_area:+1, num_lots:+1, num_commercial:+1}. Domain knowledge: more area/lots/commercial units => higher value. Should reduce overfitting noise when the model is feature-starved.",
+  "params_summary": "deepen_iter2_monotone_constraints",
+  "seed": 42,
+  "run_id": "20260507-212419-deepen-baseline_three_only",
+  "experiment_source": "experiments\\xgboost_v3\\current_experiment.py",
+  "created_at": "20260507-212419",
+  "change_kind": "preprocessing",
+  "hypothesis_unit": "monotone_constraints",
+  "feature_group": "model_constraints",
+  "anchor_run_id": "20260507-211730-smoke-baseline_three_only"
+}

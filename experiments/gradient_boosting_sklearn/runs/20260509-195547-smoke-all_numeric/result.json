@@ -1,0 +1,22 @@
+{
+  "run_id": "20260509-195547-smoke-all_numeric",
+  "family": "gradient_boosting_sklearn",
+  "stage": "smoke",
+  "feature_lane": "all_numeric",
+  "description": "Smoke lane A retry: sklearn GradientBoostingRegressor(loss=absolute_error, n_est=100, lr=0.1, max_depth=3, subsample=0.8) on all_numeric (37 cols after dropping region_code, parcel_ids, transferred_parcel_ids, commune_codes, cadastral_sections). Drops applied to fix prior float32 overflow precondition crash.",
+  "params_summary": "GBR(loss=absolute_error,n_est=100,lr=0.1,max_depth=3,subsample=0.8),all_numeric,drop_id_and_geo_strings",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 28.587957500014454,
+  "cv_mae": 57603.88592739052,
+  "cv_mae_std": 5025.894986181124,
+  "validation_mae": null,
+  "work_item": "experiments\\gradient_boosting_sklearn\\work_items\\20260509-195547-smoke-all_numeric.json",
+  "experiment": "experiments\\gradient_boosting_sklearn\\runs\\20260509-195547-smoke-all_numeric\\experiment.py",
+  "stdout": "experiments\\gradient_boosting_sklearn\\runs\\20260509-195547-smoke-all_numeric\\stdout.log",
+  "stderr": "experiments\\gradient_boosting_sklearn\\runs\\20260509-195547-smoke-all_numeric\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "structural_numeric_baseline",
+  "feature_group": "structural_numeric"
+}

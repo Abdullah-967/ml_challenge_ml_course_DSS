@@ -1,0 +1,23 @@
+{
+  "run_id": "20260508-223520-deepen-lane_a_plus_built_per_land",
+  "family": "tree_bagging_rf_v2",
+  "stage": "deepen",
+  "feature_lane": "lane_a_plus_built_per_land",
+  "description": "v2 Deepen iter1: lane A best (built_rel_type) + built_per_land = built_area/land_area cumulative. xgboost_v4 saw -116 from this exact unit.",
+  "params_summary": "single_knob=built_per_land",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 228.3066675000009,
+  "cv_mae": 50941.89248977143,
+  "cv_mae_std": 4770.09149264999,
+  "validation_mae": null,
+  "work_item": "experiments\\tree_bagging_rf_v2\\work_items\\20260508-223520-deepen-lane_a_plus_built_per_land.json",
+  "experiment": "experiments\\tree_bagging_rf_v2\\runs\\20260508-223520-deepen-lane_a_plus_built_per_land\\experiment.py",
+  "stdout": "experiments\\tree_bagging_rf_v2\\runs\\20260508-223520-deepen-lane_a_plus_built_per_land\\stdout.log",
+  "stderr": "experiments\\tree_bagging_rf_v2\\runs\\20260508-223520-deepen-lane_a_plus_built_per_land\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "built_per_land",
+  "feature_group": "derived_ratios",
+  "anchor_run_id": "20260508-222002-smoke-v1_anchor_plus_built_rel_type"
+}

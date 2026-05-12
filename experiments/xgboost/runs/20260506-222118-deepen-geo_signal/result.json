@@ -1,0 +1,18 @@
+{
+  "run_id": "20260506-222118-deepen-geo_signal",
+  "family": "xgboost",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "deepen iter2: derived ratios on geo_signal recipe",
+  "params_summary": "single_knob=derived_ratios",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 41.16572129999986,
+  "cv_mae": 51520.49855333015,
+  "cv_mae_std": 5075.277583572404,
+  "work_item": "experiments\\xgboost\\work_items\\20260506-222118-deepen-geo_signal.json",
+  "experiment": "experiments\\xgboost\\runs\\20260506-222118-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\xgboost\\runs\\20260506-222118-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\xgboost\\runs\\20260506-222118-deepen-geo_signal\\stderr.log"
+}

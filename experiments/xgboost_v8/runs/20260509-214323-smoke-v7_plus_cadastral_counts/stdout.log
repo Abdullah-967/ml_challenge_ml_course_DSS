@@ -1,0 +1,16 @@
+fold_0_mae: 48,138.5156 (245.40s)
+fold_1_mae: 48,397.0382 (225.06s)
+fold_2_mae: 40,945.4216 (233.16s)
+fold_3_mae: 55,867.6233 (217.66s)
+fold_4_mae: 48,995.8436 (161.31s)
+cv_mae: 48,468.888453
+cv_mae_std: 4,727.278732
+runtime_seconds: 1083.62
+{
+  "cv_mae": 48468.88845334386,
+  "cv_mae_std": 4727.278731596706,
+  "runtime_seconds": 1083.617354700109,
+  "splits": 5,
+  "seed": 42,
+  "experiment": "C:\\Users\\aldal\\OneDrive - Tilburg University\\DSS_Semester_1\\block4\\machine_learning\\ml_challenge\\ml_challenge_cursor\\experiments\\xgboost_v8\\runs\\20260509-214323-smoke-v7_plus_cadastral_counts\\experiment.py"
+}

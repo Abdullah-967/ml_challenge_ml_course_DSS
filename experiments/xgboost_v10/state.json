@@ -1,0 +1,11 @@
+{
+  "family": "xgboost_v10",
+  "active_stage": "deepen",
+  "created_at": "20260510-124921",
+  "stage_counts": {
+    "smoke": 3,
+    "deepen": 2
+  },
+  "latest_run_id": "20260510-131835-deepen-shrunk_v6_anchor_n1000_plus_transfer",
+  "best_run_id": "20260510-125333-smoke-shrunk_v6_anchor"
+}

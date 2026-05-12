@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_land_area",
+  "description": "Deepen iter3: backward selection drop=land_area.",
+  "params_summary": "deepen_iter3_drop_land_area",
+  "seed": 42,
+  "run_id": "20260510-111842-deepen-backward_select_drop_land_area",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-111842",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_land_area",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter30: gamma=1.0 (vs default 0). Min split gain regularization. Untested in v2 search.",
+  "params_summary": "deepen_iter30_gamma_1",
+  "seed": 42,
+  "run_id": "20260507-232950-deepen-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-232950",
+  "change_kind": "hyperparameter",
+  "hypothesis_unit": "gamma_1",
+  "feature_group": "model_regularization",
+  "anchor_run_id": "20260507-231709-deepen-v2_plus_geo_hierarchy"
+}

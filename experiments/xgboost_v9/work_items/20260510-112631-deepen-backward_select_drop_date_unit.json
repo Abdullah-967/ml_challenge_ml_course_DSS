@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_date_unit",
+  "description": "Deepen iter12: drop date_time unit (year+month together as one semantic group). Year and month single-drops were both within noise; testing them as a coherent unit.",
+  "params_summary": "deepen_iter12_drop_date_unit",
+  "seed": 42,
+  "run_id": "20260510-112631-deepen-backward_select_drop_date_unit",
+  "experiment_source": "experiments\\xgboost_v9\\current_experiment.py",
+  "created_at": "20260510-112631",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_date_time_unit",
+  "feature_group": "date_time",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

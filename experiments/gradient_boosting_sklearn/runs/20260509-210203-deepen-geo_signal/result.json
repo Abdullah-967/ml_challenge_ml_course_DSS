@@ -1,0 +1,23 @@
+{
+  "run_id": "20260509-210203-deepen-geo_signal",
+  "family": "gradient_boosting_sklearn",
+  "stage": "deepen",
+  "feature_lane": "geo_signal",
+  "description": "Deepen iter12: drop the 20 sparse room-layout columns (10 num_apt/house_*_rooms + 10 area_apt/house_*_rooms) on iter3 anchor. Each column is mostly 0 because rooms are gated by property_type. Single-knob (feature scope: drop unit). Hypothesis: removing sparse-zero columns reduces noise without losing signal that house_area / apartment_area / built_area already encode at the aggregate level.",
+  "params_summary": "GBR(loss=absolute_error,n_est=100,lr=0.1,max_depth=4,subsample=0.8),geo_signal,commune_te(k=20),drop_room_layout",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 39.08764030004386,
+  "cv_mae": 54179.96470049821,
+  "cv_mae_std": 4365.604180003115,
+  "validation_mae": null,
+  "work_item": "experiments\\gradient_boosting_sklearn\\work_items\\20260509-210203-deepen-geo_signal.json",
+  "experiment": "experiments\\gradient_boosting_sklearn\\runs\\20260509-210203-deepen-geo_signal\\experiment.py",
+  "stdout": "experiments\\gradient_boosting_sklearn\\runs\\20260509-210203-deepen-geo_signal\\stdout.log",
+  "stderr": "experiments\\gradient_boosting_sklearn\\runs\\20260509-210203-deepen-geo_signal\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_sparse_room_layout",
+  "feature_group": "room_layout",
+  "anchor_run_id": "20260509-202125-deepen-geo_signal"
+}

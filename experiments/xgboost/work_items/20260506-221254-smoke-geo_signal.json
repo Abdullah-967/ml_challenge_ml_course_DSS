@@ -1,0 +1,11 @@
+{
+  "family": "xgboost",
+  "stage": "smoke",
+  "feature_lane": "geo_signal",
+  "description": "smoke test for xgboost adding commune_codes + cadastral_sections as native cats",
+  "params_summary": "single_knob=geo_signal",
+  "seed": 42,
+  "run_id": "20260506-221254-smoke-geo_signal",
+  "experiment_source": "experiments\\xgboost\\current_experiment.py",
+  "created_at": "20260506-221254"
+}

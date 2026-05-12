@@ -1,0 +1,15 @@
+{
+  "family": "xgboost_v4",
+  "stage": "deepen",
+  "feature_lane": "v2_plus_geo_hierarchy",
+  "description": "Deepen iter8: add fold-safe land_rel_type = land_area / mean(land_area|property_type). Analogous to iter5 winner but for land area.",
+  "params_summary": "deepen_iter8_land_rel_type",
+  "seed": 42,
+  "run_id": "20260507-221123-deepen-v2_plus_geo_hierarchy",
+  "experiment_source": "experiments\\xgboost_v4\\current_experiment.py",
+  "created_at": "20260507-221123",
+  "change_kind": "feature",
+  "hypothesis_unit": "land_rel_type",
+  "feature_group": "group_aggregates",
+  "anchor_run_id": "20260507-220558-deepen-v2_plus_geo_hierarchy"
+}

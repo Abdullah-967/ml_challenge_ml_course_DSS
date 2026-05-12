@@ -1,0 +1,23 @@
+{
+  "run_id": "20260507-201801-deepen-tier1_strong_solo",
+  "family": "xgboost_v2",
+  "stage": "deepen",
+  "feature_lane": "tier1_strong_solo",
+  "description": "Deepen iter6: + room layout cluster as one knob (all area_house_*, num_house_*, area_apt_*, num_apt_*, plus apartment_area, num_house_5plus_rooms).",
+  "params_summary": "single_knob=add_room_layout_cluster",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 54.95469449998927,
+  "cv_mae": 50441.16063344024,
+  "cv_mae_std": 4529.044437594926,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v2\\work_items\\20260507-201801-deepen-tier1_strong_solo.json",
+  "experiment": "experiments\\xgboost_v2\\runs\\20260507-201801-deepen-tier1_strong_solo\\experiment.py",
+  "stdout": "experiments\\xgboost_v2\\runs\\20260507-201801-deepen-tier1_strong_solo\\stdout.log",
+  "stderr": "experiments\\xgboost_v2\\runs\\20260507-201801-deepen-tier1_strong_solo\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "add room layout cluster (apartment_area + 18 room layout numerics + num_house_5plus_rooms)",
+  "feature_group": "raw_numeric",
+  "anchor_run_id": "20260507-201632-deepen-tier1_strong_solo"
+}

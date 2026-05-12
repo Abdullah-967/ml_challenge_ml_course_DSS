@@ -1,0 +1,23 @@
+{
+  "run_id": "20260510-112736-deepen-keystone_pair_only",
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "keystone_pair_only",
+  "description": "Deepen iter13 (multi_change): keystone_pair_only = built_area + land_area. Tests whether the two backward-selection-essential features alone hold up vs the 10-feature anchor. Cumulative drop of all 8 tie-droppable features as a single recipe-level decision.",
+  "params_summary": "deepen_iter13_keystone_pair_only_multi_change",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 21.780248099938035,
+  "cv_mae": 63435.11176767679,
+  "cv_mae_std": 4757.530277543061,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v9\\work_items\\20260510-112736-deepen-keystone_pair_only.json",
+  "experiment": "experiments\\xgboost_v9\\runs\\20260510-112736-deepen-keystone_pair_only\\experiment.py",
+  "stdout": "experiments\\xgboost_v9\\runs\\20260510-112736-deepen-keystone_pair_only\\stdout.log",
+  "stderr": "experiments\\xgboost_v9\\runs\\20260510-112736-deepen-keystone_pair_only\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "keystone_pair_essentials",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}

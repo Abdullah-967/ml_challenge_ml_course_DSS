@@ -1,0 +1,23 @@
+{
+  "run_id": "20260510-112013-deepen-backward_select_drop_apartment_area",
+  "family": "xgboost_v9",
+  "stage": "deepen",
+  "feature_lane": "backward_select_drop_apartment_area",
+  "description": "Deepen iter5: backward selection drop=apartment_area.",
+  "params_summary": "deepen_iter5_drop_apartment_area",
+  "seed": 42,
+  "status": "completed",
+  "returncode": 0,
+  "runtime_seconds": 23.316720300004818,
+  "cv_mae": 58843.5686494626,
+  "cv_mae_std": 4542.645310221029,
+  "validation_mae": null,
+  "work_item": "experiments\\xgboost_v9\\work_items\\20260510-112013-deepen-backward_select_drop_apartment_area.json",
+  "experiment": "experiments\\xgboost_v9\\runs\\20260510-112013-deepen-backward_select_drop_apartment_area\\experiment.py",
+  "stdout": "experiments\\xgboost_v9\\runs\\20260510-112013-deepen-backward_select_drop_apartment_area\\stdout.log",
+  "stderr": "experiments\\xgboost_v9\\runs\\20260510-112013-deepen-backward_select_drop_apartment_area\\stderr.log",
+  "change_kind": "feature",
+  "hypothesis_unit": "drop_apartment_area",
+  "feature_group": "structural_numeric",
+  "anchor_run_id": "20260510-111630-deepen-backward_select_pool10"
+}
